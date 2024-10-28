@@ -8,7 +8,17 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/[Mm]edia/
 /[Uu]ser[Ss]ettings/
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]edia/
+[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -70,3 +80,16 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Art and Audio Files
+*.png
+*.jpeg
+*.jpg
+*.gif
+*.mp3
+*.wav
+*.ogg
+
+# Testing Assets
+/[Aa]ssets/[Tt]esting/*
+/.VSCodeCounter
