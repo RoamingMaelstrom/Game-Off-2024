@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20461da5228b2b44da0f6a6c30d6a84c, type: 3}
+  m_Name: Example TrackContainer
+  m_EditorClassIdentifier: 
+  containerName: Example Track Container
+  tracks:
+  - {fileID: 8300000, guid: 60c6398e155b0f443a9a629c2412b55d, type: 3}
+  trackPath: 
+  containerVolumeMultiplier: 1
+  defaultFadeOutDuration: 1
+  defaultFadeInDuration: 1
+  mode: 10
+  setVolumeOnEnter: 1
