@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dfed800dde4e64393a8a7eea77c878, type: 3}
+  m_Name: Weapon 1 Munitions
+  m_EditorClassIdentifier: 
+  startPoolID: 1001
+  basePoolName: Weapon 1 Munition
+  objectPrefabList:
+  - {fileID: 6637969041194054751, guid: c5dc611a3a14e97488e723d6bf77e57e, type: 3}
+  - {fileID: 6637969041194054751, guid: 0df8ed582c97ffd4985973137252000b, type: 3}
+  - {fileID: 6637969041194054751, guid: 3604af00aee13b6448dbad592ef543f9, type: 3}
+  maxPoolSize: 50
+  dynamicOptions:
+    dynamicExpansionEnabled: 0
+    expandThresholdPercent: 0.8
+    expandByPercent: 0.25
+    maxDynamicFillRatePerSecond: 50
+    dynamicShrinkingEnabled: 0
+    checkDelaySeconds: 30
+    shrinkThresholdPercent: 0.25
+    shrinkByPercent: 0.25
+    minimumPoolSize: 25

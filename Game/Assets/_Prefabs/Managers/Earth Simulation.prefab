@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4658076446638328372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4983280151830088053}
+  - component: {fileID: 2642096658232040994}
+  m_Layer: 0
+  m_Name: Earth Simulation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4983280151830088053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658076446638328372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2642096658232040994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4658076446638328372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76c3dfb61e4ec143a84e98f6ef8b25e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  growthEvent: {fileID: 11400000, guid: 72721a847b057ca4cb8b39b9b61e147d, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  startPopulation: 8000
+  maxPopulation: 50000
+  currentPopulation: 0
+  growthPerTick: 5
+  growthPercentPerTick: 0.0003
+  maxPercentGrowth: 50
+  growthInterval: 1
+  randomGrowthMinValue: 5
+  randomGrowthMaxValue: 20
+  randomGrowthProb: 0.1
+  damageMultiplier: 1

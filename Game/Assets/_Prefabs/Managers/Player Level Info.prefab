@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8716985299488022476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2799501212109333990}
+  - component: {fileID: 2257822347147521583}
+  m_Layer: 0
+  m_Name: Player Level Info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2799501212109333990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716985299488022476}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2257822347147521583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716985299488022476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070a40e3e3903bc44b462328cae923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gainXpEvent: {fileID: 11400000, guid: 2c60ad63fb96b3a4f80a14deab8f63f6, type: 2}
+  levelUpEvent: {fileID: 11400000, guid: 555d0c20aea74c4428ccf7a7cc8e5b48, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  earthSimulation: {fileID: 0}
+  level: 1
+  passiveXpTick: 100
+  tickInterval: 0.5
+  xpPerKill: 100
+  populationBaseXpMultiplier: 3
+  populationMultiplierPow: 0.75
+  levelBoundMarkers:
+  - level: 0
+    xpNeeded: 1000
+  - level: 25
+    xpNeeded: 100000
+  xpNeededPerLevel: []

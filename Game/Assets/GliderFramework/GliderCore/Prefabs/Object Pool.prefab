@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4171897119115544179}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4171897119115544176
 MonoBehaviour:
@@ -44,6 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bfe7a24fd6db64499e373e2b9989162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawnEvent: {fileID: 11400000, guid: 8834847e6aab13e49b81268cf286beef, type: 2}
-  objectPools: []
+  returnToPoolFloatEvents: []
+  returnToPoolEvents: []
+  poolInfoObjects:
+  - {fileID: 11400000, guid: 0c41bb4ed4cd97548aa2f3b0c516a0bf, type: 2}
+  poolInfoGroupObjects:
+  - {fileID: 11400000, guid: a6ad476cc16d03a4ab0269bd02fd335c, type: 2}
+  - {fileID: 11400000, guid: 7adc13aa0b2208841afb0bb8ed03c1b1, type: 2}
+  - {fileID: 11400000, guid: 1454b5e474930824dad1ca4f6cea2bce, type: 2}
+  - {fileID: 11400000, guid: 12dac279471109944988e0fa8fcba904, type: 2}
+  - {fileID: 11400000, guid: bc32ad7be8768b04bb3f68e7297215a1, type: 2}
   maxPoolFillRate: 50
+  allowNewGameObjectInstantiation: 1
+  autoAssignIDs: 0
+  trackingObject: {fileID: 0}

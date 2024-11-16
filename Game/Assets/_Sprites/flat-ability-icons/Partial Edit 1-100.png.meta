@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: 08dc6a02400fc02489bd6df12a9764b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Partial Edit 1-100_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4353ddbe81cd73489efec28a1bcb337
+      internalID: -277882982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af744cb5434f06743ba3a2da5f60afcf
+      internalID: -1564092884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb473b3fc8708ab4b908d28b18ee2764
+      internalID: -308545827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f7fb39b2f3e8443b3eb4efa4f667fc
+      internalID: -684975683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4367bfd5e971cb54a99bcd0fd035bd1e
+      internalID: -613576891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7263bb41772e400489c7f3697150d717
+      internalID: -173883101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8da8afe599fec4a9da4bf28dbcecb7
+      internalID: -1190010287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44066123b9e600041982e59c09ea2187
+      internalID: -1222549478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_8
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4d794c587baaf4398d5c6bb979e5d0
+      internalID: 392264941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_9
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 831
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc6e15305c0fc5469b1053eaf8796fc
+      internalID: -1066174139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b794826d19fed4e9291eda04dddd85
+      internalID: -2040702238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d86340be68386546ad2278fe60edbde
+      internalID: -174094268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2e0f5dfe2ce84d925a12a70898b3e
+      internalID: -1806403535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab65c2e39c082347a93250a4c5646de
+      internalID: -1544745808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7da4bd2f5447914d8e875404ae1c297
+      internalID: 1368511789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a16df9f965e7ff47bea0cc6427fc44c
+      internalID: -911618446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad50fb2fb500eaf44b8046693cdeb411
+      internalID: -81214002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c866ecea91fab43a5b09676dd2bdb5
+      internalID: 112640934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_18
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9af9d1fada7d24e9376dbcd16efa6b
+      internalID: -343742072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_19
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 739
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa343015849b4441a38387a0bcb8c07
+      internalID: 1132161067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ef519f26c7634cae11ec5206ce395
+      internalID: -1382331625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d322960a4a2a244ac3685b4c1e10b3
+      internalID: 1915832420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37803f9ee8dbb03448fb00e0da2d0a86
+      internalID: -1747601632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_23
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5201ee6dfa325cf45a24a70df17fd4dd
+      internalID: 1303410984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_24
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a88cf40a40a51f4eb28bfeca6d43bd1
+      internalID: 1421411883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa0cb34b3b8f3a40a4085d7c723023c
+      internalID: 10350376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_26
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca91704103ecbef4c94e9543324717b5
+      internalID: -722398045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_27
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea3a28d81b19aa4c991a87b24abb56f
+      internalID: 1556861482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_28
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee99c7d6f47cf4982d87de5c045331
+      internalID: -438269144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_29
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 647
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d022cac0fc995e44c918f2a3981df30d
+      internalID: -775810557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4706f476615a44c892d7f6fe952d8b
+      internalID: -292440235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f64ba32365668439a6a777db6cc951
+      internalID: 669209832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_32
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea90e840833ec4043bdb18f56f3beb6e
+      internalID: 1639298327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_33
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71655d65797cb1940a01c649e883dffe
+      internalID: 1662415154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4b4c97370adc24b95dd1a5ddc893fc
+      internalID: -1550105670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac5c2961b6a79429a4840ca315f2e8
+      internalID: -1244621798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_36
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab081900e8f7ca40998e96e315bd76c
+      internalID: -1773363375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_37
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a232f4f1c8ba994393e3fefadc49ed3
+      internalID: -1034858191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_38
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74702772a2a3fd046ada0d0107b1370d
+      internalID: -723989649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_39
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 555
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f360024ada6238a4bb929d6b17ef4987
+      internalID: -349331736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e4e4620345c34d990d3bc0796a715
+      internalID: -1095393893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_41
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58751b3d496f80b4dae08b3f462f1fd4
+      internalID: -1973215320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_42
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43358cd6e69d914ca0f042e56eec733
+      internalID: -459907421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420c16b0d0c821b47acc2dcbabf6d9ab
+      internalID: 1577186304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_44
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2691e958442ea764b9e76e7cac85616e
+      internalID: 141439059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_45
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e39336d070c8459a0926395172674
+      internalID: 137666395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_46
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dac20f7a67973f4883317e9778da30a
+      internalID: -638430794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_47
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dfbcd6aa340474ea9d4304b7401727
+      internalID: -2049135193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_48
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfd968627430d94aa1ee39cbc476ad7
+      internalID: 1954244535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_49
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 463
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb9b5722270137408d97bb5d5b363a5
+      internalID: 819803690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_50
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83b3123a00d4474783f2d9e1ce9520d
+      internalID: -120718517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_51
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31227249730971e49bdcccd3781c8b06
+      internalID: -970860382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_52
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d720ace0534cdb34ca714ff1071a777f
+      internalID: 1374946912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_53
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad216798c5d32c4b8fe27da73019854
+      internalID: -437202412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_54
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6720892c4fbee2478a999f78af626ab
+      internalID: 2143334502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_55
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7fa8998e04ad479442fae6e5eff0a
+      internalID: 311227218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_56
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f676878422b5242b59bb02f7af5757
+      internalID: -140749060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_57
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4194931bc991e241b9d74195fe5bdf8
+      internalID: -640995718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_58
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28376e6436620aa48b4295929137c522
+      internalID: 1584211040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_59
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 371
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530c39b5b3fcd4740af13130d660b9a9
+      internalID: -771647017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd44ebf3c7c7b7242a4f31e0b580e17c
+      internalID: 254710097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_61
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18128ceffa4c9d42b0eb16e585d041f
+      internalID: -2043471058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_62
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405e6e0c674d8f34596c4a8f348ba14c
+      internalID: -1192085440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_63
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcc1960c114c574db190917c7214f75
+      internalID: 1285562089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_64
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4154a7064b429418cc77dc748f9a6f
+      internalID: -708493814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_65
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbf3ee654f254841aa500cbbc3c4098
+      internalID: -1539173042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_66
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0182f37b00beb47ae6b90af757646d
+      internalID: 1942790897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_67
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0915ee8765e2f3f49b191bab53bf72d3
+      internalID: 1193820734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_68
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb706722fae2114bb097e90e1559c90
+      internalID: -137641457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_69
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 279
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc034ab1fac0eaa48883d226333ea504
+      internalID: 666553495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d9ee11441a7fc4f9c8f46804421e97
+      internalID: -1943764532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_71
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e36f8abf8d9d141a1080e6b871fdff
+      internalID: 962171432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59b93bbc613bbe4c85778d03ce8e71c
+      internalID: 1562755420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_73
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9f09bd3832d14e95f0587997eafe4
+      internalID: -1192302667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_74
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadafa2d5e92d47468edd60323faf126
+      internalID: 1124447898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_75
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bdf431b32434c48a6f39d1cdc95298
+      internalID: 2124165130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_76
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f0a7da8c44d7242ae903f6c915a720
+      internalID: -2110096188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_77
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d31025dfc5bcf43a393747b5cf329f
+      internalID: 1727750450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_78
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdda367697fbb94baa6488863a4642a
+      internalID: -1014324291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_79
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 187
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766b0e8ba69cdf449b70189c3f1a65f5
+      internalID: -210034521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_80
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8f928da75b5584fb96ba64ef8b29c8
+      internalID: -1352107362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_81
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b21a34f2b6e6545b6e18bf76701595
+      internalID: -315918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_82
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec006bcc9a02904190f8326d4ec6269
+      internalID: 1998336497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_83
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dd21e7c21ab374fba5f1b6bdb87afd
+      internalID: 393453568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_84
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613f9a0b7979b4e439b2bbeb731f7bf1
+      internalID: 1849147545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c04b0d3c1a190f4794df932ec979d3b
+      internalID: -1501215290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_86
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0770d3c366504ed4da8e353f0b69ba57
+      internalID: -562067225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_87
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eac963e1a51d848b49b962dd6f835b
+      internalID: 1987802334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_88
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63479bd338e3e6b4391411e33c79757e
+      internalID: -1277923775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_89
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 95
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6b6c13f85ee43479ca35b0e18750b5
+      internalID: -336717052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_90
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f332102207d0b448bef3a40dfb6d68
+      internalID: -1506465523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_91
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abbe2696950f4240a26db19de9f4d28
+      internalID: -105094091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_92
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25e3658a070e164e9740b3aa0b9e902
+      internalID: -599639148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_93
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981fde049378a3459cb5fa0938efac2
+      internalID: 1743830227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_94
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd53bd682d8aea418389bf3cf0e0a61
+      internalID: 1093118095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_95
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d156b26de4d5f794d821a4594455a1fb
+      internalID: 1663583434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_96
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c156e714ba65d4987a870da58f0e86
+      internalID: 392336548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_97
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d9a8684b8c5e74f8f7df05b8f7415f
+      internalID: 609328347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_98
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e144218be93ba94f92bae4bcf7b10e8
+      internalID: -1396189312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Partial Edit 1-100_99
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 3
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349cac106bf6864cb50e6f01bccf589
+      internalID: -1638675849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Partial Edit 1-100_0: -277882982
+      Partial Edit 1-100_1: -1564092884
+      Partial Edit 1-100_10: -2040702238
+      Partial Edit 1-100_11: -174094268
+      Partial Edit 1-100_12: -1806403535
+      Partial Edit 1-100_13: -1544745808
+      Partial Edit 1-100_14: 1368511789
+      Partial Edit 1-100_15: -911618446
+      Partial Edit 1-100_16: -81214002
+      Partial Edit 1-100_17: 112640934
+      Partial Edit 1-100_18: -343742072
+      Partial Edit 1-100_19: 1132161067
+      Partial Edit 1-100_2: -308545827
+      Partial Edit 1-100_20: -1382331625
+      Partial Edit 1-100_21: 1915832420
+      Partial Edit 1-100_22: -1747601632
+      Partial Edit 1-100_23: 1303410984
+      Partial Edit 1-100_24: 1421411883
+      Partial Edit 1-100_25: 10350376
+      Partial Edit 1-100_26: -722398045
+      Partial Edit 1-100_27: 1556861482
+      Partial Edit 1-100_28: -438269144
+      Partial Edit 1-100_29: -775810557
+      Partial Edit 1-100_3: -684975683
+      Partial Edit 1-100_30: -292440235
+      Partial Edit 1-100_31: 669209832
+      Partial Edit 1-100_32: 1639298327
+      Partial Edit 1-100_33: 1662415154
+      Partial Edit 1-100_34: -1550105670
+      Partial Edit 1-100_35: -1244621798
+      Partial Edit 1-100_36: -1773363375
+      Partial Edit 1-100_37: -1034858191
+      Partial Edit 1-100_38: -723989649
+      Partial Edit 1-100_39: -349331736
+      Partial Edit 1-100_4: -613576891
+      Partial Edit 1-100_40: -1095393893
+      Partial Edit 1-100_41: -1973215320
+      Partial Edit 1-100_42: -459907421
+      Partial Edit 1-100_43: 1577186304
+      Partial Edit 1-100_44: 141439059
+      Partial Edit 1-100_45: 137666395
+      Partial Edit 1-100_46: -638430794
+      Partial Edit 1-100_47: -2049135193
+      Partial Edit 1-100_48: 1954244535
+      Partial Edit 1-100_49: 819803690
+      Partial Edit 1-100_5: -173883101
+      Partial Edit 1-100_50: -120718517
+      Partial Edit 1-100_51: -970860382
+      Partial Edit 1-100_52: 1374946912
+      Partial Edit 1-100_53: -437202412
+      Partial Edit 1-100_54: 2143334502
+      Partial Edit 1-100_55: 311227218
+      Partial Edit 1-100_56: -140749060
+      Partial Edit 1-100_57: -640995718
+      Partial Edit 1-100_58: 1584211040
+      Partial Edit 1-100_59: -771647017
+      Partial Edit 1-100_6: -1190010287
+      Partial Edit 1-100_60: 254710097
+      Partial Edit 1-100_61: -2043471058
+      Partial Edit 1-100_62: -1192085440
+      Partial Edit 1-100_63: 1285562089
+      Partial Edit 1-100_64: -708493814
+      Partial Edit 1-100_65: -1539173042
+      Partial Edit 1-100_66: 1942790897
+      Partial Edit 1-100_67: 1193820734
+      Partial Edit 1-100_68: -137641457
+      Partial Edit 1-100_69: 666553495
+      Partial Edit 1-100_7: -1222549478
+      Partial Edit 1-100_70: -1943764532
+      Partial Edit 1-100_71: 962171432
+      Partial Edit 1-100_72: 1562755420
+      Partial Edit 1-100_73: -1192302667
+      Partial Edit 1-100_74: 1124447898
+      Partial Edit 1-100_75: 2124165130
+      Partial Edit 1-100_76: -2110096188
+      Partial Edit 1-100_77: 1727750450
+      Partial Edit 1-100_78: -1014324291
+      Partial Edit 1-100_79: -210034521
+      Partial Edit 1-100_8: 392264941
+      Partial Edit 1-100_80: -1352107362
+      Partial Edit 1-100_81: -315918598
+      Partial Edit 1-100_82: 1998336497
+      Partial Edit 1-100_83: 393453568
+      Partial Edit 1-100_84: 1849147545
+      Partial Edit 1-100_85: -1501215290
+      Partial Edit 1-100_86: -562067225
+      Partial Edit 1-100_87: 1987802334
+      Partial Edit 1-100_88: -1277923775
+      Partial Edit 1-100_89: -336717052
+      Partial Edit 1-100_9: -1066174139
+      Partial Edit 1-100_90: -1506465523
+      Partial Edit 1-100_91: -105094091
+      Partial Edit 1-100_92: -599639148
+      Partial Edit 1-100_93: 1743830227
+      Partial Edit 1-100_94: 1093118095
+      Partial Edit 1-100_95: 1663583434
+      Partial Edit 1-100_96: 392336548
+      Partial Edit 1-100_97: 609328347
+      Partial Edit 1-100_98: -1396189312
+      Partial Edit 1-100_99: -1638675849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

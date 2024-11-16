@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
+  m_Name: 10 - Build Scanner 3
+  m_EditorClassIdentifier: 
+  techName: Build Scanner
+  description: 'The Lab has reported back with the findings for the Alien Ship Parts
+    you collected. The technology is far more advanced than anything we have on Earth.
+    Even so, we are fairly confident that these ships cannot travel far. The aliens
+    must have set up a base within our solar system.
+
+    Build Scanner to locate
+    Alien Base (3/3)
+
+'
+  effects:
+  - effectType: 9000
+    value: 0
+  - effectType: 9001
+    value: 0
+  techType: 3
+  techUpgradeHandlers: f4010000

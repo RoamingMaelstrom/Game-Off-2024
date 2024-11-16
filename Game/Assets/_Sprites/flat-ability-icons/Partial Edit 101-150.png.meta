@@ -1,0 +1,1240 @@
+fileFormatVersion: 2
+guid: c0421c3b8de296940989c766edb3a6e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389ce2f8a0b8a1543850b068e140f0cd
+      internalID: -225768484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdd5411e31bd645810be1029215555
+      internalID: 77066243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23d14e74cd29a34e8dbb56bdc4d8e9e
+      internalID: -367769034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722966a1e433a17478961177241a09fb
+      internalID: -1598538372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_4
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae50e10764e2a24d8f1ec75d8841ba3
+      internalID: 1047886276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_5
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc5943cf0e344244b820428ee75a8ce
+      internalID: 344611381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdb8cf0068bb0547a2279883731d8d6
+      internalID: -96562034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_7
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64884763565d0b4da1da9aa16bdeb4f
+      internalID: -1945950900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_8
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780c670ff97579a42aa2e72e459c094a
+      internalID: -1753614070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_9
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 376
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e3afc80596e44bb465ed6f0a0eeee
+      internalID: 831393736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d09e13dde1c4b458c2b86a3356282c
+      internalID: -604137611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bd7c3590f8f6e48bb96e78ab1c07a1
+      internalID: -1420003632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_12
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1717172e0dcef94bb2b61432b07ee93
+      internalID: -759961790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_13
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39015df1cc669fa44b73876b864ecfa1
+      internalID: 1571454375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ddcd7914816b341b12b72f5005e172
+      internalID: 1353700569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7561d5686b73e3d42aa739ce5320b4b6
+      internalID: -789820566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_16
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ced892c7f89f3459ad485531bf63c9
+      internalID: 1932566269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_17
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e417e08311a814cb78d537d00f7dff
+      internalID: -939147623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_18
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ec7699262687a4da2c02e4daf6158c
+      internalID: -2100435994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_19
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 284
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b43d1e6c0154340b1c4638b79748ea
+      internalID: 137526724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4508f9a2ad2f9442a0b801f5435baf6
+      internalID: 2000698188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5908e1ec11087142ba2b63dc09ef8e7
+      internalID: 665836216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_22
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f6235643291141afa0520616703e8
+      internalID: 845177899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_23
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a1fd1be16d0cd4a9ab44be86ef33ca
+      internalID: -971089758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_24
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198cc840f7e7c2b4ea2b8b48262c36b7
+      internalID: 222099174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16a65087788284f92d062a76606240
+      internalID: -1341386087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_26
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63776cfe81f0a7340820fed32e73e1bb
+      internalID: 1934420724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_27
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f707947b924d7af479b0fc8c05d2339f
+      internalID: 163929617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_28
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba9748971b9af489bc0466f55c5ab0
+      internalID: -1813445139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_29
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 192
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca206a751649ea847b5861224f7fabce
+      internalID: -879981758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48452f99c6e22f74596889359f3ab13a
+      internalID: -2021109520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b9a74841cd51f479239c00b51444e6
+      internalID: -1965550151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_32
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340f53ef3a039f048be903b0c778b63e
+      internalID: 1216112928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_33
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20378580c6a0e24ab8d31e575c634a8
+      internalID: 887877646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_34
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f635c02abe3133c4c92de1cff6b5f489
+      internalID: 636280907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55a9f3360327f2438b8f65cfcde4634
+      internalID: -285852376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_36
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70d861f1c4de1e428cb910c4bd0eb69
+      internalID: -1347312367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_37
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39169d0165e07fa4b8abee04cd4167fb
+      internalID: 1641869106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_38
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d438de8967c2149979f12ed779766f
+      internalID: 1567352800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_39
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 100
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c9d617b14fc640ad9d8c1b07fe2d2
+      internalID: 1706058198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11d7ff42e9d8cf4491cc220fc18fdc6
+      internalID: 318506470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_41
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedb04baed24d344bad5aa95b8601cce
+      internalID: 1201306965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_42
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b36ef1656b3450448e7370886745937
+      internalID: -612964487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680eb6cd7bf59b140ae8cc314b5a8838
+      internalID: 529501557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_44
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8854c26515f5c4a8ee3b5fdd9cf9fe
+      internalID: -1417858999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_45
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42729ba874811d4496049bb5b924698
+      internalID: -643180134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_46
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5a85df330ef194d8e46ff63ccf7d74
+      internalID: 1992669405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_47
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff0b996c74cfe45b71663c6d46b760
+      internalID: -656567920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_48
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d00eb11d04467a4e9b5cf9726c158f2
+      internalID: -1753268361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 101-150 sci-fi icons_49
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 8
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab77c635000db34faeb318ebba7db95
+      internalID: -1584577208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      101-150 sci-fi icons_0: -225768484
+      101-150 sci-fi icons_1: 77066243
+      101-150 sci-fi icons_10: -604137611
+      101-150 sci-fi icons_11: -1420003632
+      101-150 sci-fi icons_12: -759961790
+      101-150 sci-fi icons_13: 1571454375
+      101-150 sci-fi icons_14: 1353700569
+      101-150 sci-fi icons_15: -789820566
+      101-150 sci-fi icons_16: 1932566269
+      101-150 sci-fi icons_17: -939147623
+      101-150 sci-fi icons_18: -2100435994
+      101-150 sci-fi icons_19: 137526724
+      101-150 sci-fi icons_2: -367769034
+      101-150 sci-fi icons_20: 2000698188
+      101-150 sci-fi icons_21: 665836216
+      101-150 sci-fi icons_22: 845177899
+      101-150 sci-fi icons_23: -971089758
+      101-150 sci-fi icons_24: 222099174
+      101-150 sci-fi icons_25: -1341386087
+      101-150 sci-fi icons_26: 1934420724
+      101-150 sci-fi icons_27: 163929617
+      101-150 sci-fi icons_28: -1813445139
+      101-150 sci-fi icons_29: -879981758
+      101-150 sci-fi icons_3: -1598538372
+      101-150 sci-fi icons_30: -2021109520
+      101-150 sci-fi icons_31: -1965550151
+      101-150 sci-fi icons_32: 1216112928
+      101-150 sci-fi icons_33: 887877646
+      101-150 sci-fi icons_34: 636280907
+      101-150 sci-fi icons_35: -285852376
+      101-150 sci-fi icons_36: -1347312367
+      101-150 sci-fi icons_37: 1641869106
+      101-150 sci-fi icons_38: 1567352800
+      101-150 sci-fi icons_39: 1706058198
+      101-150 sci-fi icons_4: 1047886276
+      101-150 sci-fi icons_40: 318506470
+      101-150 sci-fi icons_41: 1201306965
+      101-150 sci-fi icons_42: -612964487
+      101-150 sci-fi icons_43: 529501557
+      101-150 sci-fi icons_44: -1417858999
+      101-150 sci-fi icons_45: -643180134
+      101-150 sci-fi icons_46: 1992669405
+      101-150 sci-fi icons_47: -656567920
+      101-150 sci-fi icons_48: -1753268361
+      101-150 sci-fi icons_49: -1584577208
+      101-150 sci-fi icons_5: 344611381
+      101-150 sci-fi icons_6: -96562034
+      101-150 sci-fi icons_7: -1945950900
+      101-150 sci-fi icons_8: -1753614070
+      101-150 sci-fi icons_9: 831393736
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

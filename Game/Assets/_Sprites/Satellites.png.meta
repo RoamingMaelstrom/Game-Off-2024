@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Satellites_40
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 615
+        width: 101
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2d38d06b17e824f944e4eac08a9a80
+      internalID: 1836676821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_41
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 724
+        width: 118
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce6b3760ba4fdd4fbe8439196d13210
+      internalID: 907248947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_42
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 699
+        width: 118
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e9452c950e6b34cbb8843bf5107767
+      internalID: -1601821504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 100
+        width: 290
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862aa819d3626f40967fe8bd6d4a4c5
+      internalID: 1517955941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_44
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 615
+        width: 118
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444ff5f83364f024385bf6f9f6da068f
+      internalID: 2111192791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_45
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 590
+        width: 185
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acbc9235ea4994097e616212e78df3
+      internalID: -122007253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_46
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 502
+        width: 218
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66077cbd94a8f114ab98a798731f6110
+      internalID: 26911418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 490
+        width: 227
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02702cc43161de4eb39cbe3553c8ffd
+      internalID: 2135492942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_48
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 393
+        width: 201
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930ea2c02f127bb429945ef1bfb0c9f8
+      internalID: 23873310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_49
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 393
+        width: 243
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef3f00908272f41b15c2f0cc1d1f4b
+      internalID: 97635925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 289
+        width: 218
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefe7cb38a974354b9355cecc2da02b6
+      internalID: -1550055499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 306
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c62b4172aebf142825b2fd469746c1
+      internalID: -1444761728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_52
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 302
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3973fb7c1c2e545b69fcf78121c364
+      internalID: -790161913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_53
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 302
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c9cbfa964b71849bc6beb016b58337
+      internalID: -677866205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_54
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 48
+        width: 52
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58299d88ff341c4d90a86fa6adc2ce4
+      internalID: -143440696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_55
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 93
+        width: 51
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab04d9a25640c44a5c570bb4c17022
+      internalID: 604833562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_56
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 189
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6878be02a7f8f448908c81cadc703a
+      internalID: -204371939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_57
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 205
+        width: 243
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f7e93dbb17054d8c0561c2e94c0fe
+      internalID: 1465276360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Satellites_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 26
+        width: 212
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e3a456436f7124689c3bf26765153c
+      internalID: -2068424071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +531,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Satellites_0: 120834482
+      Satellites_1: 297791715
+      Satellites_10: 1923456006
+      Satellites_11: 781665280
+      Satellites_12: -1629947250
+      Satellites_13: 1256657877
+      Satellites_14: -156614817
+      Satellites_15: 646734311
+      Satellites_16: 1878006884
+      Satellites_17: -1677921424
+      Satellites_18: -989585244
+      Satellites_19: -769721084
+      Satellites_2: 1122566821
+      Satellites_20: 88713215
+      Satellites_21: 2071341064
+      Satellites_22: 1738634308
+      Satellites_23: -1521899766
+      Satellites_24: -102343676
+      Satellites_25: -1720924814
+      Satellites_26: -1776455939
+      Satellites_27: -1503280751
+      Satellites_28: -291635496
+      Satellites_29: -1166492789
+      Satellites_3: 254057597
+      Satellites_30: -1608017722
+      Satellites_31: -1546964021
+      Satellites_32: 1395297412
+      Satellites_33: 542026022
+      Satellites_34: 967389464
+      Satellites_35: -1671182121
+      Satellites_36: -12728999
+      Satellites_37: 940274699
+      Satellites_38: 1809029121
+      Satellites_39: -1747625447
+      Satellites_4: -1174199139
+      Satellites_40: 1836676821
+      Satellites_41: 907248947
+      Satellites_42: -1601821504
+      Satellites_43: 1517955941
+      Satellites_44: 2111192791
+      Satellites_45: -122007253
+      Satellites_46: 26911418
+      Satellites_47: 2135492942
+      Satellites_48: 23873310
+      Satellites_49: 97635925
+      Satellites_5: 1644908293
+      Satellites_50: -1550055499
+      Satellites_51: -1444761728
+      Satellites_52: -790161913
+      Satellites_53: -677866205
+      Satellites_54: -143440696
+      Satellites_55: 604833562
+      Satellites_56: -204371939
+      Satellites_57: 1465276360
+      Satellites_58: -2068424071
+      Satellites_6: 2131624018
+      Satellites_7: -390953486
+      Satellites_8: -934559063
+      Satellites_9: -731801441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
