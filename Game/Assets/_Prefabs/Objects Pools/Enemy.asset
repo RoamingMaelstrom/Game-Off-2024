@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 957ed04ac4c514340b50778c2c88748b, type: 3}
+  m_Name: Enemy
+  m_EditorClassIdentifier: 
+  poolID: 0
+  poolName: Enemy
+  objectPrefab: {fileID: 2945123449164179101, guid: a1e5bb14d09fe12428e6a85fdfef133d, type: 3}
+  maxPoolSize: 1000
+  dynamicOptions:
+    dynamicExpansionEnabled: 0
+    expandThresholdPercent: 0.8
+    expandByPercent: 0.25
+    maxDynamicFillRatePerSecond: 50
+    dynamicShrinkingEnabled: 0
+    checkDelaySeconds: 30
+    shrinkThresholdPercent: 0.25
+    shrinkByPercent: 0.25
+    minimumPoolSize: 25

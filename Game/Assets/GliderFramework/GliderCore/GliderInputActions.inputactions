@@ -42,6 +42,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Toggle Tech Panel",
+                    "type": "Button",
+                    "id": "502e4ede-cd9c-466e-b2a6-e42f7db1b4e7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "RMB",
                     "type": "Value",
                     "id": "4d75ffcd-979c-416c-b302-0acc87162e57",
@@ -331,6 +340,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "MouseScroll",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e4bd7a9-a29f-45db-a119-533e3752e45f",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Toggle Tech Panel",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 20 - Weapon 3 Upgrade 1
   m_EditorClassIdentifier: 
   techName: Shorter Beam Wavelength
-  description: Increases Frequency of Laserbeam, reducing damage dropoff over larger
+  description: Increases Frequency of Laser Beam, reducing damage drop-off over larger
     distances
   effects:
   - effectType: 2004

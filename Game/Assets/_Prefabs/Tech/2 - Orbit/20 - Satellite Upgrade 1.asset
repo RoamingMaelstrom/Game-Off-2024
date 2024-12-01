@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 20 - Satellite Upgrade 1
   m_EditorClassIdentifier: 
   techName: Shorter Beam Wavelength
-  description: Satellites emit lasers with at higher frequencies, increasing damage
-    and reducing damage dropoff
+  description: Laser Beam Waves are emitted at higher frequencies, increasing damage
+    and reducing damage drop-off
   effects:
   - effectType: 2003
     value: 33

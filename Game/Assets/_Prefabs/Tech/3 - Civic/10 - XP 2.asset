@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - XP 2
   m_EditorClassIdentifier: 
-  techName: Global Education Program 1
-  description: Provide High Quality Primary Education to the Global Population, Increasing
-    Passive XP Gain
+  techName: Global Education Program 2
+  description: Provide high quality Tertiary Education to the Global Population,
+    Increasing Passive XP Gain further
   effects:
   - effectType: 4005
     value: 15

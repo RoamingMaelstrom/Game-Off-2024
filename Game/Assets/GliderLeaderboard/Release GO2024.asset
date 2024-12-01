@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e97062f1908fe4ebbb8c01a0a4245a, type: 3}
+  m_Name: Release GO2024
+  m_EditorClassIdentifier: 
+  <LocalID>k__BackingField: 1
+  <ServerID>k__BackingField: Release_GO2024
+  <ScoreFloor>k__BackingField: 1000
+  <ScoreCap>k__BackingField: 999999999
+  <UseHighscoreMode>k__BackingField: 1
+  <MaxScoreSubmissionPerPlayer>k__BackingField: 100
+  <NumScoresToRetrieve>k__BackingField: 10

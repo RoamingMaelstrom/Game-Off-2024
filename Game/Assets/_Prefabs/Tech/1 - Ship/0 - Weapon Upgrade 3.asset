@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: 0 - Weapon Upgrade 3
   m_EditorClassIdentifier: 
   techName: Armour Piercing Rounds
-  description: Munitions deal more damage and can pierce through multiple Alien Ships
+  description: Starting Cannon deals significantly more Damage
   effects:
   - effectType: 2003
-    value: 33
-  - effectType: 2010
-    value: 2
+    value: 100
   techType: 0
   techUpgradeHandlers: 67000000

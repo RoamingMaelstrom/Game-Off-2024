@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Probe Launch 4
   m_EditorClassIdentifier: 
-  techName: Launch Probe
-  description: "Mission Success! The Scanner appears to have located an Alien Base
-    in orbit of Mars. \nBut we need more intel. We should launch a probe to inspect
-    the base, and find out its weaknesses.\nLaunch Mars Probe (4/4)"
+  techName: Launch Probe (4/4)
+  description: "Launch the Probe and escort it until is far enough from the Earth\r\nWARNING
+    \u2013 Nearby Aliens will attempt to destroy the Probe. Protect it or we will
+    have to start again from scratch!\r\n"
   effects:
-  - effectType: 9000
-    value: 0
-  - effectType: 9001
+  - effectType: 9004
     value: 0
   techType: 3
   techUpgradeHandlers: f4010000

@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Missiles are fired in Volleys
   effects:
   - effectType: 2002
-    value: 3
+    value: 2
   techType: 0
   techUpgradeHandlers: 6a000000

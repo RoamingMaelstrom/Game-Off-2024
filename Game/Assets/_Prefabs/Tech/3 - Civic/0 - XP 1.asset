@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 0 - XP 1
   m_EditorClassIdentifier: 
   techName: Laboratory Building Program
-  description: Invest in Building Research Laboratories, Increasing Passive Experience
-    Gain
+  description: Build clusters of new Laboratories around the globe, Increasing Passive
+    Experience Gain
   effects:
   - effectType: 4005
     value: 25

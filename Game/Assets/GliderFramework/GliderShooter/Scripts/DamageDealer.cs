@@ -16,10 +16,14 @@ public class DamageDealer : MonoBehaviour
     public bool alive = true;
 
     public float despawnFloatValue;
+    public float passToHealthFloatValue;
 
     public GameObject createdBy;
+    [SerializeField] string[] spawnSfx;
 
     public DotDamageSystem dotDamageSystem = new DotDamageSystem();
+
+    private float cachedLife;
 
     // Ensures that dotInterval cannot be shorter than physics update time (0.02f).
     public float dotInterval 
@@ -34,6 +38,11 @@ public class DamageDealer : MonoBehaviour
         // if (dotDamageValue > 0) StartCoroutine(DotDamageCoroutine());
 
         if (dotDamageValue > 0) dotDamageSystem.RestartDotDamageCoroutine(this);
+        if (cachedLife == 0) cachedLife = life;
+    }
+
+    public void SetLifeToCachedValue() {
+        life = cachedLife;
     }
 
     // Stops DotDamageCoroutine if it is running, and then starts a new DotDamageCoroutine. 
@@ -43,6 +52,15 @@ public class DamageDealer : MonoBehaviour
         alive = true;
         if (dotDamageValue <= 0) return;
         dotDamageSystem.RestartDotDamageCoroutine(this);
+    }
+
+    public void PlayAttachedSfx() {
+        if (spawnSfx == null || spawnSfx.Length == 0) return;
+        if (spawnSfx.Length == 1) GliderAudio.SFX.PlayRelativeToTransform(spawnSfx[0], transform, Vector2.zero);
+        else if (spawnSfx.Length > 1)  {
+            string clipToPlay = spawnSfx[Random.Range(0, spawnSfx.Length)];
+            GliderAudio.SFX.PlayRelativeToTransform(clipToPlay, transform, Vector2.zero);
+        }
     }
 
 
@@ -65,7 +83,7 @@ public class DamageDealer : MonoBehaviour
     {
         if (!alive) return;
 
-        healthDamaging.TakeDamage(damageValue);
+        healthDamaging.TakeDamage(this, damageValue);
         life --;
 
         if (life > 0) return;

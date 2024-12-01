@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 40 - Space Station
   m_EditorClassIdentifier: 
   techName: Space Station
-  description: Large Space Station Armed with Multiple Turrets. Increases the Power
-    of other Satellites
+  description: Large Space Station Armed that slowly orbits the Earth. Armed with
+    Two Independently Firing Turrets
   effects:
   - effectType: 8010
     value: 0

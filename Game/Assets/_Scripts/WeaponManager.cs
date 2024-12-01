@@ -29,10 +29,19 @@ public class WeaponManager : MonoBehaviour
         unlockTechEvent.AddListener(ProcessUnlock);
     }
 
-    private void HandleDespawn(GameObject munition, float arg1) {
-        if (arg1 == 1000) Instantiate(explosionPrefabs[0], munition.transform.position, Quaternion.identity);
+    private void HandleDespawn(GameObject munition, float despawnValue) {
+        switch (despawnValue)
+        {
+            case 1041: Instantiate(explosionPrefabs[0], munition.transform.position, Quaternion.identity); break;
+            case 1042: Instantiate(explosionPrefabs[1], munition.transform.position, Quaternion.identity); break;
+            case 1301: Instantiate(explosionPrefabs[2], munition.transform.position, Quaternion.identity); break;
+            case 1302: Instantiate(explosionPrefabs[3], munition.transform.position, Quaternion.identity); break;
+            case 1311: Instantiate(explosionPrefabs[4], munition.transform.position, Quaternion.identity); break;
+            case 1312: Instantiate(explosionPrefabs[5], munition.transform.position, Quaternion.identity); break;
+            default: break;
+        }
         
-        if (pierceProbability <= 0) objectPool.ReturnObject(munition);
+        if (pierceProbability <= 0 || despawnValue >= 1050) objectPool.ReturnObject(munition);
         else if (Random.Range(0f, 1f) > pierceProbability) objectPool.ReturnObject(munition);
         else {
             DamageDealer dD = munition.GetComponent<DamageDealer>();
@@ -70,7 +79,11 @@ public class WeaponManager : MonoBehaviour
             switch (effect.effectType)
             {
                 case EffectType.ACCURACY: weapon.accuracyCoefficient += (1f - weapon.accuracyCoefficient) * (effect.value / 100f); break;
-                case EffectType.BURST_FIRE: weapon.fireCount = effect.value; break;
+                case EffectType.BURST_FIRE: {
+                    weapon.fireCount = effect.value;
+                    weapon.fireRate *= Mathf.Pow(0.9f, effect.value);
+                    break;
+                }
                 case EffectType.DAMAGE: weapon.munitionID++; break;
                 case EffectType.FIRE_RATE: weapon.fireRate *= 1f + (effect.value / 100f); break;
                 case EffectType.MUNITION_COUNT: weapon.fireCount = effect.value; break;
@@ -88,7 +101,7 @@ public class WeaponManager : MonoBehaviour
         {
             switch (effect.effectType)
             {
-                case EffectType.DROP_OFF: weapon.minDamageMultiplier += (1f - weapon.minDamageMultiplier) * effect.value; break;
+                case EffectType.DROP_OFF: weapon.minDamageMultiplier += (1f - weapon.minDamageMultiplier) * effect.value / 100f; break;
                 case EffectType.DAMAGE: {
                     weapon.storedDotValue *= 1f + (effect.value / 100f); break;
                 }

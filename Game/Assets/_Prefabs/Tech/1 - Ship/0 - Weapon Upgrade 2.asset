@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0 - Weapon Upgrade 2
   m_EditorClassIdentifier: 
   techName: Muzzle Boost
-  description: Increase Fire Rate and Accuracy of Ship Starting Cannon
+  description: Increase Fire Rate and Accuracy of Starting Cannon
   effects:
   - effectType: 2006
     value: 33

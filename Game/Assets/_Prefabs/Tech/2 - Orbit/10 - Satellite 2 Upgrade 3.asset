@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10 - Satellite 2 Upgrade 3
   m_EditorClassIdentifier: 
   techName: Burst shot
-  description: Satellites shoot Lasers in Bursts
+  description: Satellites shoot Lasers in Bursts of Three
   effects:
   - effectType: 2002
     value: 3

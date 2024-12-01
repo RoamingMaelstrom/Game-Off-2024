@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - Weapon 4 Upgrade 2
   m_EditorClassIdentifier: 
-  techName: Bigger Rockets
-  description: Rockets Deal more Damage and cover a Greater area
+  techName: Bigger Payload
+  description: Missile Explosions Deal more Damage and cover a Greater area
   effects:
   - effectType: 2003
-    value: 33
+    value: 50
   - effectType: 2005
     value: 50
   techType: 0

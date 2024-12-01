@@ -29,7 +29,8 @@ namespace GliderServices
         private static bool RunSubmitScoreChecks(ref ScoreCheckLog log, LeaderboardInfo info, int newScore, int storedScore, int numScoresSubmitted, bool highscoreMode)
         {
             int scoreMode = info.UseHighscoreMode ? 1 : -1;
-
+            Debug.Log(newScore);
+            Debug.Log(storedScore);
             if (!LogCheck(ref log, IsBestScore(newScore, scoreMode), VALID_HIGHSCORE_CHECK_NAME.BEST_SCORE)) return false;
             if (!LogCheck(ref log, NumScoreSubmissionNotTooHigh(), VALID_HIGHSCORE_CHECK_NAME.NUMBER_SUBMITTED_CAP_NOT_EXCEEDED)) return false;
             if (!LogCheck(ref log, ScoreWithinBounds(), VALID_HIGHSCORE_CHECK_NAME.MEETS_THRESHOLD)) return false;
@@ -38,7 +39,7 @@ namespace GliderServices
             if (!LogCheck(ref log, ServiceConnection.IsConnectedToNetwork(), VALID_HIGHSCORE_CHECK_NAME.CONNECTED_TO_LOCAL_NETWORK)) return false;
             return true;
 
-            bool IsBestScore(int score, int scoreMode) => score * scoreMode > storedScore * scoreMode;
+            bool IsBestScore(int score, int scoreMode) => score * scoreMode >= storedScore * scoreMode;
             bool NumScoreSubmissionNotTooHigh() => numScoresSubmitted < info.MaxScoreSubmissionPerPlayer;
             bool ScoreWithinBounds() => (newScore <= info.ScoreCap && newScore >= info.ScoreFloor) || info.ScoreCap == info.ScoreFloor;
         }

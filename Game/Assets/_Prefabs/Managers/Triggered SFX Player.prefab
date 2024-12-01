@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2576765890083366763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2895394173511017488}
+  - component: {fileID: 4304898656687129318}
+  m_Layer: 0
+  m_Name: Triggered SFX Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2895394173511017488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576765890083366763}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4304898656687129318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576765890083366763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 326729512224e3944bb5f8869d58a1d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playSfxOnCameraEvent: {fileID: 11400000, guid: 6f3a026d146b5674b99558467dde9c1e, type: 2}
+  levelUpEvent: {fileID: 11400000, guid: 555d0c20aea74c4428ccf7a7cc8e5b48, type: 2}
+  playerDamagedEvent: {fileID: 11400000, guid: 7be173e757349dd4ea7a237ec492b265, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  missionCompleteEvent: {fileID: 11400000, guid: c8eaf340d3161ae4eadf38b3ab4ccf98, type: 2}
+  probeDestroyedEvent: {fileID: 11400000, guid: 54fde168a596905478d34c163edbbca0, type: 2}
+  startMissionEvent: {fileID: 11400000, guid: e27e9186944a6b34d91ac56d71cc0ff4, type: 2}
+  levelUpSfx: level_up_subtle
+  playerDamagedSfx:
+  - earth_hit_alarm
+  - earth_hit_alarm_2
+  unlockSfx:
+  - unlock_purr_1
+  - unlock_purr_2
+  - unlock_purr_3
+  mainMusicTrackContainerID: 0
+  startMissionTrackContainerID: 0
+  musicFadeDuration: 0

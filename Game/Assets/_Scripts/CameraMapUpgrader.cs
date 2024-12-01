@@ -4,7 +4,7 @@ using UnityEngine;
 public class CameraMapUpgrader : MonoBehaviour
 {
     [SerializeField] TechObjectDisplaySOEvent unlockTechEvent;
-    [SerializeField] CameraPositionLogic cameraPositionLogic;
+    [SerializeField] WorldInfo worldInfo;
     [SerializeField] Camera minimapCamera;
     [SerializeField] LayerMask uniqueMinimapLayerMask;
     private readonly TechUpgradeHandler techUpgradeHandler = TechUpgradeHandler.CAMERA_LOGIC;
@@ -20,7 +20,7 @@ public class CameraMapUpgrader : MonoBehaviour
         {
             switch (effect.effectType)
             {
-                case EffectType.MAP_SIZE: cameraPositionLogic.arenaSize *= 1f + (effect.value / 100f); break;
+                case EffectType.MAP_SIZE: worldInfo.gameWorldRadius *= 1f + (effect.value / 100f); break;
                 case EffectType.MINIMAP_ZOOM: minimapCamera.orthographicSize *= 1f + (effect.value / 100f); break;
                 case EffectType.UNLOCK_ICONS: minimapCamera.cullingMask = uniqueMinimapLayerMask; break;
                 default: break;

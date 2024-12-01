@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TechTreeBand : MonoBehaviour
 {
-    public int minUnlocks;
+    public int minLevel;
     public TechObjectDisplay[] techDisplays;
     public bool isSetup = false;
 

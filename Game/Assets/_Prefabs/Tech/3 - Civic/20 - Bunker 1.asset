@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 20 - Bunker 1
   m_EditorClassIdentifier: 
   techName: Communal Bunkers
-  description: Build Bunkers in Densely populated areas, Reducing Deaths from Alien
-    Attacks
+  description: Build Bunkers in densely populated areas, Reducing Population Loss
+    from Alien Attacks
   effects:
   - effectType: 4008
     value: 25

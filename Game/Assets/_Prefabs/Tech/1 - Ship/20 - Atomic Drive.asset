@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: 20 - Atomic Drive
   m_EditorClassIdentifier: 
   techName: Atomic Drive
-  description: Upgrade Ship Power source, increasing Thrust, Boost and Tunnel Boost
-    distance
+  description: "Nuclear powered reactor all attributes of the Ship\u2019s movement"
   effects:
   - effectType: 1002
     value: 25
   - effectType: 1001
     value: 25
   - effectType: 1004
-    value: 33
+    value: 25
+  - effectType: 1003
+    value: 25
   techType: 0
   techUpgradeHandlers: 65000000

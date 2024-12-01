@@ -51,6 +51,7 @@ MonoBehaviour:
   speedGainPerSecond: 50
   homeDelay: 0.25
   homeStrength: 3
+  particleTrail: {fileID: 0}
 --- !u!50 &1464294210867921873
 Rigidbody2D:
   serializedVersion: 4
@@ -159,7 +160,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4413876173778881774}
@@ -205,7 +206,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1000
+  m_SortingOrder: 500
   m_Sprite: {fileID: 21300000, guid: fd646a7d1ff7cc1478aeea159ef43a2a, type: 3}
   m_Color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
   m_FlipX: 0
@@ -277,7 +278,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_Direction: 0
 --- !u!114 &1185832166420894923
 MonoBehaviour:
@@ -297,8 +298,12 @@ MonoBehaviour:
   DotInterval: 0
   life: 0
   alive: 1
-  despawnFloatValue: 1000
+  despawnFloatValue: 1041
+  passToHealthFloatValue: 1
   createdBy: {fileID: 0}
+  spawnSfx:
+  - player_missile_2
+  - player_missile_3
 --- !u!114 &-2215848704500625311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,3 +320,4 @@ MonoBehaviour:
   autoStart: 1
   startLifespan: 7
   spanRemaining: 0
+  despawnFloatValue: 1041

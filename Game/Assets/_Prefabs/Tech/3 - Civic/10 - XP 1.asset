@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - XP 1
   m_EditorClassIdentifier: 
-  techName: C.F.M
-  description: Combat Feedback Module provides realtime data, increasing XP gained
-    from Alien Kills
+  techName: Global Education Program 1
+  description: Provide high quality Primary and Secondary Education to the global
+    population, Increasing Passive XP Gain
   effects:
-  - effectType: 4006
-    value: 33
+  - effectType: 4005
+    value: 15
+  - effectType: 4007
+    value: 10
   techType: 2
-  techUpgradeHandlers: 2f010000
+  techUpgradeHandlers: 2f0100002e010000

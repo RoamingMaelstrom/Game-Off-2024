@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Weapon 3
   m_EditorClassIdentifier: 
-  techName: Laserbeam Turret
-  description: Add Turret that automatically fires a Laserbeam at the nearest Alien
+  techName: Laser Beam Turret
+  description: Add Turret that automatically fires a Laser Beam at the nearest Alien
     Ship. Deals more damage to closer targets
   effects:
   - effectType: 8004

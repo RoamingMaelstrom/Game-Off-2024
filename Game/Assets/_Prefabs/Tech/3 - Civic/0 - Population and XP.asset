@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 0 - Population and XP
   m_EditorClassIdentifier: 
-  techName: Neural and Fertility Implants
-  description: Apply implants into the human population, Increasing Human Intelligence
-    and Fertility
+  techName: Advanced Genetically Modified Organisms
+  description: Increase crop yields by introducing Advanced GMOs into the global
+    supply chains, Increasing Population Growth and Passive Experience Gain
   effects:
-  - effectType: 4005
-    value: 15
   - effectType: 4001
+    value: 20
+  - effectType: 4005
     value: 15
   techType: 2
   techUpgradeHandlers: 2e0100002f010000

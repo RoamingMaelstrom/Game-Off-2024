@@ -175,9 +175,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+    m_NormalColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b370ce787b921c148b2f74a631d914ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  selectTechDisplayEvent: {fileID: 0}
   border: {fileID: 4322663490313312185}
   icon: {fileID: 1632382170641649791}
   focusButton: {fileID: 303821588029040150}
@@ -243,3 +243,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: 
+  suggestedWidth: 0
+  suggestedHeight: 0

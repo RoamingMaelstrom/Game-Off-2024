@@ -1,6 +1,6 @@
 using SOEvents;
-using Unity.VisualScripting;
 using UnityEngine;
+using GliderAudio;
 
 public class MunitionCreator : MonoBehaviour
 {
@@ -23,7 +23,10 @@ public class MunitionCreator : MonoBehaviour
         munitionBody.velocity = GetMunitionVelocity(fOI, newMunition.transform.position);
         newMunition.transform.rotation = Quaternion.Euler(0, 0, WeaponMath.Math.VectorToRotation(munitionBody.velocity));
 
-        newMunition.GetComponent<DamageDealer>().ManuallyRestartDotDamageCoroutine();
+        DamageDealer damageDealer = newMunition.GetComponent<DamageDealer>();
+        damageDealer.SetLifeToCachedValue();
+        damageDealer.ManuallyRestartDotDamageCoroutine();
+        damageDealer.PlayAttachedSfx();
     }
 
     private Vector2 GetMunitionVelocity(FireOrderInfo fOI, Vector2 startPos) {

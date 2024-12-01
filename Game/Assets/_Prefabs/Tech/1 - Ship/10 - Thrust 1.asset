@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Thrust 1
   m_EditorClassIdentifier: 
-  techName: Efficient Thrusters 1
-  description: Improve ship thruster design, increasing ship normal and boost speeds
+  techName: Efficient Thrusters
+  description: Improve ship thruster design, increasing ship acceleration, and normal
+    and boost speeds
   effects:
   - effectType: 1002
     value: 25

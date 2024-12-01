@@ -33,6 +33,8 @@ namespace GliderServices
                 PlayerLocalInfo.PlayerName = newFieldValue;
                 inputField.SetTextWithoutNotify(PlayerLocalInfo.PlayerName);
             }
+
+            
         }
 
 

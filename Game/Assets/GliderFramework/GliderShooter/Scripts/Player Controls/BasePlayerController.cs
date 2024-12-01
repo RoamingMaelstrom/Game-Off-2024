@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using SOEvents;
-using System;
 using System.Collections;
-
+using GliderSave;
 public class BasePlayerController : MonoBehaviour
 {
+    [SerializeField] FloatSaveObject sfxVolume;
     [SerializeField] GameObjectSOEvent playerStartTargetingEvent;
     [SerializeField] SOEvent playerStopTargetingEvent;
-    [SerializeField] SOEvent togglePauseScreenEvent;
     [SerializeField] TechObjectDisplaySOEvent unlockTechEvent;
 
     [SerializeField] MouseInfo mouseInfo;
+    [SerializeField] TechPanelLogic techPanelLogic;
 
     [SerializeField] public float playerThrust = 10000f;
     [SerializeField] public float playerMaxSpeed = 25f;
@@ -35,8 +35,20 @@ public class BasePlayerController : MonoBehaviour
     public bool isLockedOn {get; private set;}
     GameObject targetObject;
 
+    [SerializeField] SpriteRenderer playerRenderer;
     [SerializeField] public Rigidbody2D playerBody;
+    [SerializeField] ParticleSystem boostParticles;
+    [SerializeField] ParticleSystem thrustParticles;
+    [SerializeField] ParticleSystem tunnelBoostParticles;
 
+    [SerializeField] AudioSource boostAudioSource;
+    [SerializeField] AudioSource thrustAudioSource;
+    [SerializeField] float boostMaxVolume = 0.25f;
+    [SerializeField] float thrustMaxVolume = 0.75f;
+    [SerializeField] float volumeGainMultiplier = 3f;
+    [SerializeField] string[] warpSfxs;
+
+    public bool controlsActive = true;
     public bool useShipDirectionThrust = true;
 
     private RotationConstraints rotationConstraints;
@@ -54,9 +66,10 @@ public class BasePlayerController : MonoBehaviour
         playerStopTargetingEvent.AddListener(OnPlayerStopTargetingEvent);
         rotationConstraints = new(maxAngularVelocity, maxRotationDifference, targetModeMouseLerp);
         unlockTechEvent.AddListener(ProcessUnlock);
-    }
 
-    // Todo: Add Boost Jump
+        boostAudioSource.volume = 0;
+        thrustAudioSource.volume = 0;
+    }
 
     private void ProcessUnlock(TechObjectDisplay tOD) {
         if (!tOD.techObject.ContainsHandler(techUpgradeHandler)) return;
@@ -65,16 +78,16 @@ public class BasePlayerController : MonoBehaviour
         {
             switch (effect.effectType)
             {
-                case EffectType.BOOST_THRUST: playerBoostMultiplier *= 1f + (effect.value / 100f); break;
+                case EffectType.BOOST_THRUST: break;
                 case EffectType.NORMAL_THRUST:  {
                     playerThrust *= 1f + (effect.value / 100f);
                     playerMaxSpeed *= 1f + (effect.value / 100f);
                     break;
                 }
                 case EffectType.ROTATION_SPEED: maxAngularVelocity *= 1f + (effect.value / 100f); break;
-                case EffectType.WARP_JUMP_DISTANCE: break; // Todo: Implement
+                case EffectType.WARP_JUMP_DISTANCE: tunnelBoostDistance *= 1f + (effect.value / 100f); break;
                 case EffectType.UNLOCK_BOOST: boostingEnabled = true; break;
-                case EffectType.UNLOCK_TUNNEL_WARP: break; // Todo: Implement
+                case EffectType.UNLOCK_TUNNEL_WARP: tunnelBoostEnabled = true; break;
                 default: break;
             }
         }
@@ -95,13 +108,42 @@ public class BasePlayerController : MonoBehaviour
         tunnelBoostCooldown -= Time.fixedDeltaTime;
     }
 
+    private void Update() {
+        float sfxSettingVolume = sfxVolume.GetValue();
+
+        if (Time.timeScale <= 0 || movement.sqrMagnitude <= 0.1f) {
+            UpdateSourceVolume(boostAudioSource, false, volumeGainMultiplier * Time.unscaledDeltaTime, boostMaxVolume * sfxSettingVolume);
+            UpdateSourceVolume(thrustAudioSource, false, volumeGainMultiplier * Time.unscaledDeltaTime, thrustMaxVolume * sfxSettingVolume);
+        }
+
+        bool isBoosting =  spacebarDown != 0 && boostingEnabled;
+
+        if (isBoosting) {
+            UpdateSourceVolume(boostAudioSource, true, boostMaxVolume * volumeGainMultiplier * Time.unscaledDeltaTime, boostMaxVolume * sfxSettingVolume);
+            UpdateSourceVolume(thrustAudioSource, false, thrustMaxVolume * volumeGainMultiplier * Time.unscaledDeltaTime, thrustMaxVolume * sfxSettingVolume);
+        }
+        else {
+            UpdateSourceVolume(boostAudioSource, false, boostMaxVolume * volumeGainMultiplier * Time.unscaledDeltaTime, boostMaxVolume * sfxSettingVolume);
+            UpdateSourceVolume(thrustAudioSource, true, thrustMaxVolume * volumeGainMultiplier * Time.unscaledDeltaTime, thrustMaxVolume * sfxSettingVolume);
+        }
+    }
+
+    private static void UpdateSourceVolume(AudioSource source, bool louder, float volumeChangeRate, float maxVolume) {
+        source.volume = Mathf.Clamp(source.volume + (volumeChangeRate * (louder ? 1f : -1f)), 0, maxVolume);
+        if (!source.isPlaying) source.Play();
+    }
+
     private IEnumerator TunnelBoost() {
         float rotation = playerBody.transform.rotation.eulerAngles.z * Mathf.Deg2Rad;
+        Color startColour = playerRenderer.color;
+        playerRenderer.color = startColour * 0.5f;
+        tunnelBoostParticles.Play();
+        GliderAudio.SFX.PlayRelativeToTransform(warpSfxs[Random.Range(0, warpSfxs.Length)], playerBody.transform);
+
         Vector2 dir = new Vector2(Mathf.Sin(-rotation), Mathf.Cos(rotation)).normalized;
         if (dir.magnitude == 0) dir = Vector2.up;
         tunnelBoostCooldown = tunnelBoostDuration * 1.1f;
 
-        Vector2 startPos = playerBody.transform.position;
         float speed = tunnelBoostDistance / tunnelBoostDuration;
         float timer = 0;
         while (timer < tunnelBoostDuration) {
@@ -112,14 +154,26 @@ public class BasePlayerController : MonoBehaviour
         actualMaxSpeed = playerMaxSpeed * playerBoostMultiplier;
         rotation = playerBody.transform.rotation.eulerAngles.z * Mathf.Deg2Rad;
         playerBody.velocity = Vector2.Lerp(new Vector2(Mathf.Sin(-rotation), Mathf.Cos(rotation)).normalized * actualMaxSpeed, playerBody.velocity.normalized * actualMaxSpeed, 0.5f);
+        playerRenderer.color = startColour;
     }
 
-    void OnBoost(InputValue value) => spacebarDown = value.Get<float>();
+    void OnBoost(InputValue value) {
+        if (!controlsActive) spacebarDown = 0;
+        else spacebarDown = value.Get<float>();
+    }
 
-    void OnMove(InputValue value) => movement = value.Get<Vector2>();
 
-    void OnPause(InputValue value) => togglePauseScreenEvent.Invoke();
+    void OnMove(InputValue value) {
+        if (!controlsActive) movement = Vector2.zero;
+        movement = value.Get<Vector2>();
+    }
 
+    //void OnPause(InputValue value) => togglePauseScreenEvent.Invoke();
+
+    void OnToggleTechPanel(InputValue value) {
+        if (!controlsActive || techPanelLogic == null) return;
+         techPanelLogic.ToggleTechPanel();
+    }
 
     private void OnPlayerStopTargetingEvent()
     {
@@ -142,7 +196,23 @@ public class BasePlayerController : MonoBehaviour
 
         if (useShipDirectionThrust) PlayerThrust.CalculateShipDirectionalThrust(playerBody, movement, thrust, actualMaxSpeed);
         else PlayerThrust.CalculateNonDirectionalThrust(playerBody, movement, thrust, actualMaxSpeed);
+
+        boostParticles.transform.rotation = playerBody.transform.rotation;
+        boostParticles.transform.localPosition = -movement.normalized * 0.5f;
+
+        if (isBoosting && !boostParticles.isEmitting) boostParticles.Play();
+        else if (!isBoosting && boostParticles.isEmitting) boostParticles.Stop();
+
+        thrustParticles.transform.rotation = playerBody.transform.rotation; //Quaternion.Euler(0, 0, WeaponMath.Math.VectorToRotation(movement));
+        thrustParticles.transform.localPosition = -movement.normalized * 0.5f;
+
+        if (movement.magnitude > 0 && !thrustParticles.isEmitting) thrustParticles.Play();
+        else if (movement.magnitude == 0 && thrustParticles.isEmitting) thrustParticles.Stop();
+
+        //if (isBoosting && boostAudioSource.clip != boostClip) boostAudioSource.clip = boostClip;
+        //else if (!isBoosting && boostAudioSource.clip != thrustClip) boostAudioSource.clip = thrustClip;
     }
+
 
     private void HandleRotation()
     {

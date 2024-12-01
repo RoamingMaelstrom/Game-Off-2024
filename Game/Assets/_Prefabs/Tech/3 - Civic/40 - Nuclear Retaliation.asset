@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - Nuclear Retaliation
   m_EditorClassIdentifier: 
-  techName: Nuclear Retaliation
-  description: Retaliatory Strikes Fires Nuclear Missiles
+  techName: Nuclear Warheads
+  description: Missiles fired by Retaliatory Strikes and Extra-Terrestrial Missiles
+    contain Nuclear Warheads
   effects:
   - effectType: 4011
     value: 0

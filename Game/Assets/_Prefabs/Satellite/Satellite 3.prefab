@@ -50,10 +50,10 @@ MonoBehaviour:
   damageDealer: {fileID: 3614754132521117852}
   lineRenderer: {fileID: 7527587157652925763}
   target: {fileID: 0}
-  range: 30
-  rotationSpeed: 90
-  angle: 0
-  minDamageMultiplier: 0.25
+  range: 13
+  rotationSpeed: 270
+  minDamageMultiplier: 0.33
+  laserHumSfx: laser_hum_1
   storedDotValue: 0
 --- !u!120 &7527587157652925763
 LineRenderer:
@@ -96,7 +96,7 @@ LineRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1000
+  m_SortingOrder: 100
   m_Positions:
   - {x: 0, y: 0, z: 0}
   - {x: 0, y: 0, z: 1}
@@ -381,10 +381,10 @@ PolygonCollider2D:
     - - {x: 0.5, y: 1.35}
       - {x: 0, y: 1.45}
       - {x: -0.5, y: 1.35}
-      - {x: -1, y: 1}
+      - {x: -1.2, y: 1}
       - {x: -0.05, y: 0}
       - {x: 0.05, y: 0}
-      - {x: 1, y: 1}
+      - {x: 1.2, y: 1}
   m_UseDelaunayMesh: 0
 --- !u!114 &226650207270093723
 MonoBehaviour:
@@ -513,6 +513,14 @@ PrefabInstance:
     - target: {fileID: 2250339459252395757, guid: 195da73ac469f0c4399335ba25477fd4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850062486923451169, guid: 195da73ac469f0c4399335ba25477fd4, type: 3}
+      propertyPath: DotInterval
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850062486923451169, guid: 195da73ac469f0c4399335ba25477fd4, type: 3}
+      propertyPath: dotDamageValue
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: 0 - Population 2
   m_EditorClassIdentifier: 
   techName: Climate Defence Act
-  description: Invest in Protections against Natural Disasters, Reducing Deaths from
-    Acts of Nature
+  description: Invest in projects that protect against natural disasters, Reducing
+    Deaths from Random acts of nature
   effects:
   - effectType: 4003
     value: 25
   - effectType: 4004
-    value: 20
+    value: 33
   techType: 2
   techUpgradeHandlers: 2e010000

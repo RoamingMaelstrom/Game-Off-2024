@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 0 - Satellite Upgrade 2
   m_EditorClassIdentifier: 
   techName: Bigger Barrel
-  description: Fire projectiles at greater speeds, dealing more damage
+  description: Bigger Barrel allows for firing projectiles at greater speeds, dealing
+    more damage
   effects:
   - effectType: 2009
     value: 33

@@ -50,10 +50,10 @@ MonoBehaviour:
   damageDealer: {fileID: 7385181115292915874}
   lineRenderer: {fileID: 3743490400293953554}
   target: {fileID: 0}
-  range: 40
+  range: 20
   rotationSpeed: 360
-  angle: 0
   minDamageMultiplier: 0.25
+  laserHumSfx: laser_hum_3
   storedDotValue: 0
 --- !u!120 &3743490400293953554
 LineRenderer:

@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 50 - Victory
   m_EditorClassIdentifier: 
-  techName: Victory
-  description: Finish the Game
+  techName: Launch the Counter-Offensive
+  description: 'Onwards to Mars!
+
+    Onwards to Victory!
+
+'
   effects:
-  - effectType: 9000
+  - effectType: 9999
     value: 0
   techType: 3
   techUpgradeHandlers: f4010000

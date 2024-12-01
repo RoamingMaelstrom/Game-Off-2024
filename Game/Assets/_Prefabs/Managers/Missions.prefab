@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2847696006703651473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7618725993778040251}
+  - component: {fileID: 8882586296146484935}
+  m_Layer: 0
+  m_Name: Mission 3 - Send Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7618725993778040251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2847696006703651473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6332683501179336265}
+  m_Father: {fileID: 1427701019154415476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8882586296146484935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2847696006703651473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b71c538f97169f48bc37205bbe45ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missionCompleteEvent: {fileID: 11400000, guid: c8eaf340d3161ae4eadf38b3ab4ccf98, type: 2}
+  probeDestroyedEvent: {fileID: 11400000, guid: 54fde168a596905478d34c163edbbca0, type: 2}
+  startMissionEvent: {fileID: 11400000, guid: e27e9186944a6b34d91ac56d71cc0ff4, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  completionTOD: {fileID: 0}
+  worldInfo: {fileID: 11400000, guid: 046a7cbdc8449fc488372447e94c1a71, type: 2}
+  probeBody: {fileID: 7530744417256549777}
+  probeHealth: {fileID: 5743208626675417178}
+  enemyController: {fileID: 0}
+  startSpeed: 1
+  missionLength: 90
+  missionScore: 10000
+  missionActive: 0
+  probeTODs: []
+  probeExplosionPrefab: {fileID: 0}
+--- !u!1 &4032591003874281884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1427701019154415476}
+  m_Layer: 0
+  m_Name: Missions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1427701019154415476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032591003874281884}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5546847373543561336}
+  - {fileID: 5982927408171156826}
+  - {fileID: 7618725993778040251}
+  - {fileID: 6744074792978421009}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4538558921128545568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5546847373543561336}
+  - component: {fileID: 7270597855104806539}
+  m_Layer: 0
+  m_Name: Mission 1 - Reverse Engineer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5546847373543561336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538558921128545568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1427701019154415476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7270597855104806539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538558921128545568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39f249d9f1a686468d8f300ad5e5eed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDestroyedEvent: {fileID: 11400000, guid: 64f40de341aa0d54eaf5420c1ac56363, type: 2}
+  missionCompleteEvent: {fileID: 11400000, guid: c8eaf340d3161ae4eadf38b3ab4ccf98, type: 2}
+  startMissionEvent: {fileID: 11400000, guid: e27e9186944a6b34d91ac56d71cc0ff4, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  completionTOD: {fileID: 0}
+  worldInfo: {fileID: 11400000, guid: 046a7cbdc8449fc488372447e94c1a71, type: 2}
+  enemySpawner: {fileID: 0}
+  playerBody: {fileID: 0}
+  pickupPrefabs: []
+  currentPickups: 0
+  pickupsRequired: 20
+  pickupAttractionRadius: 20
+  pickupPickedUpRadius: 3
+  maxPickupAcceleration: 120
+  missionScore: 2500
+  enemyID: 0
+  pickupSfx: pickup_short
+  missionActive: 0
+--- !u!1 &4952554122288438731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5982927408171156826}
+  - component: {fileID: 8959874179569196060}
+  m_Layer: 0
+  m_Name: Mission 2 - Scan For Alien Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5982927408171156826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952554122288438731}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1427701019154415476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8959874179569196060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952554122288438731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d18a89b978e06499e28516d6670021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missionCompleteEvent: {fileID: 11400000, guid: c8eaf340d3161ae4eadf38b3ab4ccf98, type: 2}
+  startMissionEvent: {fileID: 11400000, guid: e27e9186944a6b34d91ac56d71cc0ff4, type: 2}
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  completionTOD: {fileID: 0}
+  enemySpawner: {fileID: 0}
+  scanDuration: 75
+  spawnMultiplier: 2
+  timeRemaining: 0
+  missionActive: 0
+  missionScore: 5000
+--- !u!1 &8287663475929878808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6744074792978421009}
+  - component: {fileID: 601230869295210248}
+  m_Layer: 0
+  m_Name: Mission 4 - Prototype Laser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6744074792978421009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8287663475929878808}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3385485287093595790}
+  m_Father: {fileID: 1427701019154415476}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &601230869295210248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8287663475929878808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c9610f823917249902baf2b046ef22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  worldInfo: {fileID: 11400000, guid: 046a7cbdc8449fc488372447e94c1a71, type: 2}
+  laserbeamWeapon: {fileID: 4593633416631066433}
+  numUpgrades: 0
+  maxUpgrades: 5
+  damage: 0
+--- !u!1001 &354390200912018287
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6744074792978421009}
+    m_Modifications:
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275272034383422510, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: range
+      value: 40000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275272034383422510, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: rotationSpeed
+      value: 720
+      objectReference: {fileID: 0}
+    - target: {fileID: 7293089028823271232, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+      propertyPath: m_Name
+      value: Laser
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+--- !u!4 &3385485287093595790 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3031103886711264737, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+  m_PrefabInstance: {fileID: 354390200912018287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4593633416631066433 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4275272034383422510, guid: 1127e53c2debe7c41977edf5157ba1a0, type: 3}
+  m_PrefabInstance: {fileID: 354390200912018287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f386c3729d9df14dae05423d9c1a3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8530874090013707654
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7618725993778040251}
+    m_Modifications:
+    - target: {fileID: 985750859577178410, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_Name
+      value: Probe
+      objectReference: {fileID: 0}
+    - target: {fileID: 985750859577178410, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+--- !u!114 &5743208626675417178 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4165892432189935068, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+  m_PrefabInstance: {fileID: 8530874090013707654}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36aa2ce9d284c1049bb2fe5f8994ce0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &6332683501179336265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2414482312551775183, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+  m_PrefabInstance: {fileID: 8530874090013707654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &7530744417256549777 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2225153065937068055, guid: 8f4c2ab3c5a37ce4688f828a1e98c4c9, type: 3}
+  m_PrefabInstance: {fileID: 8530874090013707654}
+  m_PrefabAsset: {fileID: 0}

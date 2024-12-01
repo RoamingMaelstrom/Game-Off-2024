@@ -23,7 +23,9 @@ namespace GliderAudio
                 skipCreation = false;
                 foreach (var clipInfo in clipInfoArray)
                 {
-                    if (clipInfo.clipName == clip.name.Replace(" ", "_")) 
+                    string clipName = clip.name.Replace(" ", "_");
+                    clipName = clipName.ToLower();
+                    if (clipInfo.clipName == clipName) 
                     {
                         skipCreation = true;
                         break;

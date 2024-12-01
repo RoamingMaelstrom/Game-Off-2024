@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 0 - XP 2
   m_EditorClassIdentifier: 
   techName: Research Grant Funding
-  description: Fund more Scientific Projects, Increasing Passive Experience Gain
+  description: Provide more funding for scientific research, Increasing Passive Experience
+    Gain
   effects:
   - effectType: 4005
     value: 25

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - Bunker 1
   m_EditorClassIdentifier: 
-  techName: Domestic Bunker Rollout
+  techName: Domestic Bunkers
   description: Install Bunkers in Every Home, reducing deaths from Alien Attacks
   effects:
   - effectType: 4008

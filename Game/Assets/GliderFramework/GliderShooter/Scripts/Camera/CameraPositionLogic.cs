@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class CameraPositionLogic : MonoBehaviour
 {
+    [SerializeField] WorldInfo worldInfo;
     [SerializeField] PlayerTargeting playerTargetingScript;
     [SerializeField] Rigidbody2D playerBody;
 
+
     [SerializeField] float velocityCameraPositionMultiplier = 0.5f;
     [SerializeField] float zeroLerpDistance = 50f;
-    public float arenaSize;
+
+
 
     Vector3 tMinus1Pos = new Vector3();
     Vector3 tMinus2Pos = new Vector3();
@@ -42,8 +45,7 @@ public class CameraPositionLogic : MonoBehaviour
         currentPos = Vector3.Lerp(currentPos, tMinus2Pos, 0.25f);
 
         transform.position = currentPos;
-        transform.position = transform.position.magnitude > arenaSize ? transform.position.normalized * arenaSize : transform.position;
-        //transform.position = Vector2.ClampMagnitude(transform.position, arenaSize);
+        transform.position = transform.position.magnitude > worldInfo.gameWorldRadius ? transform.position.normalized * worldInfo.gameWorldRadius : transform.position;
         tMinus2Pos = tMinus1Pos;
         tMinus1Pos = currentPos;
     }

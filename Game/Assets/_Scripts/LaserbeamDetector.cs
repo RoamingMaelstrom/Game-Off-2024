@@ -21,10 +21,16 @@ public class LaserbeamDetector : MonoBehaviour
         float tDeltaSqr;
         Rigidbody2D sNearest = inRange[0];
 
-        for (int i = 1; i < inRange.Count; i++)
+        for (int i = inRange.Count - 1; i >= 1; i--)
         {
+            if (!inRange[i].gameObject.activeInHierarchy) 
+            {
+                inRange.RemoveAt(i);
+                continue;
+            }
             tDeltaSqr = (inRange[i].transform.position - transform.position).sqrMagnitude;
             if (tDeltaSqr < sDeltaSqr) {
+                if (Mathf.Abs(Mathf.Sqrt(tDeltaSqr) - Mathf.Sqrt(sDeltaSqr)) < 1) continue;
                 sNearest = inRange[i];
                 sDeltaSqr = tDeltaSqr;
             }

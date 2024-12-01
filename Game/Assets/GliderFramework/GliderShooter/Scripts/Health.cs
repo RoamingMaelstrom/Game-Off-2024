@@ -9,6 +9,8 @@ public class Health : MonoBehaviour
     public GameObject defaultGameObjectOnDeath;
     [Tooltip("Float that is passed to \"onDeathEvent\" when invoked.")]
     public float defaultFloatOnDeath;
+    [SerializeField] bool defaultFloatOverridable = true;
+    [SerializeField] bool passDamageDealerCreatorOnDamaged = false;
 
     [Space(25)]
 
@@ -30,7 +32,7 @@ public class Health : MonoBehaviour
     public float ManualSetCurrentShieldHp(float value) => shieldHpCurrent = Mathf.Clamp(value, 0, shieldHpMax);
 
     // When taking damage, first damages the shield, and puts the shield's regeneration on cooldown. The, subtracts any remaining damage from currentHp.
-    public void TakeDamage(float dmgValue)
+    public void TakeDamageSimple(float dmgValue)
     {
         shieldHpCurrent -= dmgValue;
         currentShieldRegenCooldown = shieldOnDamagedRegenCooldown;
@@ -44,6 +46,21 @@ public class Health : MonoBehaviour
             CheckDead();
         }
 
+    }
+
+    public void TakeDamage(DamageDealer damageDealer, float dmgValue) {
+        shieldHpCurrent -= dmgValue;
+        currentShieldRegenCooldown = shieldOnDamagedRegenCooldown;
+
+        if (defaultFloatOverridable) defaultFloatOnDeath = damageDealer.passToHealthFloatValue;
+        if (onTakeDamageEvent) onTakeDamageEvent.Invoke(passDamageDealerCreatorOnDamaged ? damageDealer.createdBy : gameObject, dmgValue);
+
+        if (shieldHpCurrent < 0)
+        {
+            currentHp += shieldHpCurrent;
+            shieldHpCurrent = 0;
+            CheckDead();
+        }
     }
 
     private void FixedUpdate() 

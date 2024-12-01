@@ -12,20 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - Prototype 5
   m_EditorClassIdentifier: 
-  techName: Construct Prototype Laser
-  description: 'Probe successfully intercepted target! The base appears to contain
-    thousands more of these Alien crafts. It is imperative we strike, before we are
-    overwhelmed!
-
-    Our researchers have successfully reverse engineered their
-    short-range warp drives. However, we will need more powerful weaponary to destroy
-    the Alien Base.
-
-    Construct Prototype Laser (5/5)'
+  techName: Construct Prototype Laser (5/5)
+  description: "The Laser should be powerful enough to Annihilate any Aliens we come
+    across. Now all that\u2019s left is to assemble the fleet for the counter offensive.\nWARNING
+    \u2013 The Aliens will throw everything they have at you!"
   effects:
-  - effectType: 9000
+  - effectType: 9005
     value: 0
-  - effectType: 9001
+  - effectType: 9006
     value: 0
   techType: 3
-  techUpgradeHandlers: f4010000
+  techUpgradeHandlers: f4010000ca000000

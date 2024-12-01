@@ -126,8 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentWeapon: {fileID: 7764534020319311667}
-  range: 15
+  range: 14
   inRange: []
+  targetSlowest: 0
 --- !u!1 &3889448098217648029
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,12 +176,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRequestMunitionEvent: {fileID: 11400000, guid: 2b7e96b13300a764f984000b4b7e566a, type: 2}
   parentBody: {fileID: 8148060635909034289}
-  fireRate: 1.5
+  fireRate: 1
   fireWidth: 1
   fireCount: 1
   munitionID: 1101
   accuracyCoefficient: 0.4
-  munitionSpeed: 35
+  munitionSpeed: 32
   offset: {x: 0, y: 0}
   targetingType: 3
 --- !u!1 &4967075790015140975

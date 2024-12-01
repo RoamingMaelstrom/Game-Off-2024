@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 40 - All Weapons Upgrade 2
   m_EditorClassIdentifier: 
   techName: Diamond Rounds
-  description: All Munitions have a chance to pierce
+  description: All Munitions have a chance to pierce Alien Ships instead of Expiring
   effects:
   - effectType: 2011
     value: 50

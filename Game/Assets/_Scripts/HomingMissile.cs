@@ -8,20 +8,39 @@ public class HomingMissile : MonoBehaviour
     [SerializeField] float speedGainPerSecond = 1f;
     [SerializeField] float homeDelay = 1f;
     [SerializeField] float homeStrength = 1f;
+    [SerializeField] ParticleSystem particleTrail;
 
     private List<Rigidbody2D> inRange = new();
 
     private float timer = 0;
+    private bool homingTriggered = false;
 
 
     private void OnEnable() {
         timer = 0;
+        homingTriggered = false;
         inRange = new();
+        if (particleTrail) particleTrail.gameObject.SetActive(false);
     }
 
     private void FixedUpdate() {
         timer += Time.fixedDeltaTime;
+
+        for (int i = inRange.Count - 1; i >= 0; i--)
+        {
+            if (!inRange[i].gameObject.activeInHierarchy) inRange.RemoveAt(i);
+        }
+
         if (timer > homeDelay) body.velocity = body.velocity.normalized * (body.velocity.magnitude + (speedGainPerSecond * Time.fixedDeltaTime));
+        if (timer > homeDelay && particleTrail != null) {
+            particleTrail.gameObject.SetActive(true);
+            if (!particleTrail.isPlaying) particleTrail.Play();
+            if (!homingTriggered) {
+                homingTriggered = true;
+                GliderAudio.SFX.PlayRelativeToTransform("rocket_exhaust_long", transform);
+            }
+        }
+
 
         if (inRange.Count == 0) {
             target = null;

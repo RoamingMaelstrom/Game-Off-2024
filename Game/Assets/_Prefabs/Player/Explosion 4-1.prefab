@@ -4913,6 +4913,7 @@ GameObject:
   - component: {fileID: 2912576013851595331}
   - component: {fileID: 4867922838181768765}
   - component: {fileID: 8961589287279417218}
+  - component: {fileID: 7681148091077604997}
   m_Layer: 9
   m_Name: Explosion 4-1
   m_TagString: Untagged
@@ -4930,7 +4931,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 774561619328180270}
@@ -9790,7 +9791,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 750
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -9866,7 +9867,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6727506366353895139}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -9885,6 +9886,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7681148091077604997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6727506366353895139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397f12882d92faf4a87877290466151e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  despawnEvent: {fileID: 0}
+  damageValue: 150
+  dotDamageValue: 0
+  DotInterval: 0
+  life: 1000000
+  alive: 1
+  despawnFloatValue: 0
+  passToHealthFloatValue: 11
+  createdBy: {fileID: 0}
+  spawnSfx:
+  - explosion_1
 --- !u!1 &7811587791322463516
 GameObject:
   m_ObjectHideFlags: 0

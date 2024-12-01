@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Satellite Upgrade 3
   m_EditorClassIdentifier: 
-  techName: Enlarged Constellation 2
+  techName: Enlarge Constellation 2
   description: Increase the number of Satellites in the Array
   effects:
   - effectType: 3004

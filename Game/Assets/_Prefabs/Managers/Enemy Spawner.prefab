@@ -44,10 +44,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce25e89c73dd39641acf11198b88f1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelUpEvent: {fileID: 11400000, guid: 555d0c20aea74c4428ccf7a7cc8e5b48, type: 2}
+  startMissionEvent: {fileID: 11400000, guid: e27e9186944a6b34d91ac56d71cc0ff4, type: 2}
   unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
+  worldInfo: {fileID: 11400000, guid: 046a7cbdc8449fc488372447e94c1a71, type: 2}
   objectPool: {fileID: 0}
   enemyController: {fileID: 0}
-  enemySpawnDistance: 100
-  testEnemyID: 0
-  spawnInterval: 2
+  enemyProfiles:
+  - {fileID: 11400000, guid: 1f496d72056eba6449c0f8781df0512a, type: 2}
+  - {fileID: 11400000, guid: 25dab0b1688dac646a1d823494662671, type: 2}
+  - {fileID: 11400000, guid: 6ca5b4a19bccd8d46900fdffe66b2da3, type: 2}
+  - {fileID: 11400000, guid: b2eb89120d93952468ee8e5254e3d6bc, type: 2}
+  - {fileID: 11400000, guid: f3716bfd623655848ad817cb98c1d90e, type: 2}
+  - {fileID: 11400000, guid: 3e1a069d01e6e4b4586588081a8cc7c9, type: 2}
+  enemyWaves:
+  - {fileID: 11400000, guid: 66a936168a8e69543a73349819af30e2, type: 2}
+  - {fileID: 11400000, guid: 07e4734c2e585424dad5a2dc2ff8c9c2, type: 2}
+  - {fileID: 11400000, guid: d8f33598147290541a7e84050d09a766, type: 2}
+  - {fileID: 11400000, guid: 5c3b5773480b55b41a30d9f2f4ae0135, type: 2}
+  - {fileID: 11400000, guid: 7294e78ff20566740915305631abc883, type: 2}
+  - {fileID: 11400000, guid: ce5002014cd9f0c499726bf2768ad22e, type: 2}
+  - {fileID: 11400000, guid: a0d4fd48ae191694ebd0b233aef67f42, type: 2}
+  - {fileID: 11400000, guid: 8d7b6081929a89a41b3da99183bea259, type: 2}
+  - {fileID: 11400000, guid: b4249d5c65abf294785f0ace95dfdc9e, type: 2}
+  - {fileID: 11400000, guid: 6c25c990d6f6ee34ca6701c7f9b88331, type: 2}
+  infiniteWave: {fileID: 11400000, guid: c66ae8b1e2e28264891be813013bc64e, type: 2}
+  waveNumber: 0
+  spawnRateMultiplier: 1
+  basicEnemyID: 0
   timer: 0
+  reverseEngineerTimer: 0
+  reverseEngineerSpawnRate: 0.25
+  reverseEngineerEnemyID: 1
+  reverseEngineerMissionActive: 0
+  probeBody: {fileID: 0}
+  damageMultiplier: 1
+  healthMultiplier: 1
+  speedMultiplier: 1
+  levelMultiplierRate: 0.025
+  levelMultiplierRateStart: 40
+  infiniteWaveMultiplierGain: 0.005
+  finaleTimer: 0
+  finaleDuration: 150
+  finale: 0
+  prototypeLaser: {fileID: 0}
+  completionTOD: {fileID: 0}
+  completedPrototypeSfx: 

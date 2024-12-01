@@ -126,8 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentWeapon: {fileID: 837023444452094320}
-  range: 30
+  range: 16
   inRange: []
+  targetSlowest: 1
 --- !u!1 &1859214797386427739
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +156,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2497731221214638004}
@@ -321,12 +322,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRequestMunitionEvent: {fileID: 11400000, guid: 2b7e96b13300a764f984000b4b7e566a, type: 2}
   parentBody: {fileID: 3856758367653224249}
-  fireRate: 0.6
+  fireRate: 0.4
   fireWidth: 1
   fireCount: 1
   munitionID: 1201
-  accuracyCoefficient: 0.7
-  munitionSpeed: 50
+  accuracyCoefficient: 0.9
+  munitionSpeed: 60
   offset: {x: 0, y: 0}
   targetingType: 3
 --- !u!1001 &5666712592166161027

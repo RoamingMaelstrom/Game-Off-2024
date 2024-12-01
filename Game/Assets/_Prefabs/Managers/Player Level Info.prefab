@@ -50,13 +50,31 @@ MonoBehaviour:
   earthSimulation: {fileID: 0}
   level: 1
   passiveXpTick: 100
-  tickInterval: 0.5
-  xpPerKill: 100
-  populationBaseXpMultiplier: 3
-  populationMultiplierPow: 0.75
+  tickInterval: 0.7
+  xpPerKillMultiplier: 1
+  xpPerKillCap: 2500
+  xpPerKillAboveCapPower: 0.85
+  populationBaseXpMultiplier: 2.25
+  populationMultiplierPow: 0.8
   levelBoundMarkers:
   - level: 0
-    xpNeeded: 1000
-  - level: 25
-    xpNeeded: 100000
+    xpNeeded: 2000
+  - level: 10
+    xpNeeded: 6000
+  - level: 20
+    xpNeeded: 12000
+  - level: 40
+    xpNeeded: 24000
+  - level: 50
+    xpNeeded: 72000
+  - level: 75
+    xpNeeded: 240000
+  - level: 80
+    xpNeeded: 960000
+  - level: 86
+    xpNeeded: 1e+9
   xpNeededPerLevel: []
+  passiveXpTotal: 0
+  playerKillXpTotal: 0
+  satelliteKillXpTotal: 0
+  populationMultiplierXpTotal: 0

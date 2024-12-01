@@ -19,7 +19,7 @@ namespace WeaponMath
         public static Vector2 ApplyAccuracyCoefficientToVector(Vector2 vector, float accuracyCoefficient)
         {
             return new Vector2(vector.y * Random.Range(-1 + accuracyCoefficient, 1 - accuracyCoefficient),
-             vector.x * Random.Range(-1 + accuracyCoefficient, 1 - accuracyCoefficient)) / 4f;
+             vector.x * Random.Range(-1 + accuracyCoefficient, 1 - accuracyCoefficient)) / 3f;
         }
     }
 }

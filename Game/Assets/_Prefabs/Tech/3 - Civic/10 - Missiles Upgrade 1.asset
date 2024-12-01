@@ -16,7 +16,7 @@ MonoBehaviour:
   description: Missiles are Fired more frequently, and travel at greater speeds
   effects:
   - effectType: 2006
-    value: 25
+    value: 33
   - effectType: 2009
     value: 33
   techType: 2

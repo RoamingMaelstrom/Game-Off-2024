@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 0 - Satellite Upgrade 3
   m_EditorClassIdentifier: 
   techName: Double Shot
-  description: Satellites shoot two projectiles at once
+  description: Adds Second Cannon to Satellites, allowing them to shoot two projectiles
+    at once
   effects:
   - effectType: 2007
     value: 2

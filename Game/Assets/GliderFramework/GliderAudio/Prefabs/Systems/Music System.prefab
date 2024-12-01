@@ -46,13 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicVolumeSaveObject: {fileID: 11400000, guid: 740cf48c48816cc44a2ea92eb16710a1, type: 2}
+  changeMusicVolumeEvent: {fileID: 11400000, guid: bbf1229c316f84c449ff29ebd944f07a, type: 2}
   MAX_AUDIO_SOURCE_VOLUME: 0.6
   runtimeVolumeMultiplier: 1
   pauseMuffleMultiplier: 0.25
   playingSource: {fileID: 2957607989050901446}
   trackContainers:
   - {fileID: 11400000, guid: 12ce0eefe114e1f4a9d11ec5c53e020b, type: 2}
-  startTrackContainerIndex: 0
+  - {fileID: 11400000, guid: 7056a9af7e9d341449b9a9cd9441061d, type: 2}
+  - {fileID: 11400000, guid: 0e70700830abc214fbfd93a4ae58c241, type: 2}
+  - {fileID: 11400000, guid: e0fa4b27c9635a84cbd744827776c41c, type: 2}
+  - {fileID: 11400000, guid: e3c5be92df3603240af19493ed03f721, type: 2}
+  - {fileID: 11400000, guid: f20a0035f969b2d42a86bd63f8fda606, type: 2}
+  startTrackContainerIndex: 1
   isPaused: 0
 --- !u!1001 &1470193358354379690
 PrefabInstance:

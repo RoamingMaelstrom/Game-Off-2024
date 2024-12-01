@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Population 1
   m_EditorClassIdentifier: 
-  techName: Nano-Bots Rollout
-  description: Inject the Population with Nano-bots, reducing deaths from natural
-    causes
+  techName: Repopulation Program
+  description: Build artificial womb across the globe, ready to be activated when
+    Population Loss occurs
   effects:
-  - effectType: 4001
-    value: 33
+  - effectType: 4012
+    value: 2
   techType: 2
   techUpgradeHandlers: 2e010000

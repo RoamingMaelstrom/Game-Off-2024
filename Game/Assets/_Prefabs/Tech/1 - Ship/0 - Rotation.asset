@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 0 - Rotation
   m_EditorClassIdentifier: 
   techName: Reaction Wheel
-  description: Install Reactor Wheel, improving Ship rotation speed and manouverability
+  description: Install Reactor Wheel, improving Ship rotation speed and manoeuvrability
   effects:
   - effectType: 1003
-    value: 50
+    value: 66
   techType: 0
   techUpgradeHandlers: 65000000

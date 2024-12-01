@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 20 - Retaliation
   m_EditorClassIdentifier: 
   techName: Retaliatory Strikes
-  description: Fire waves of Missiles when an Alien Attacks the Earth
+  description: 'Fire a Retaliatory Wave of Missiles when an Alien Attacks the Earth. '
   effects:
   - effectType: 8011
-    value: 0
+    value: 45
   techType: 2
   techUpgradeHandlers: 2d010000

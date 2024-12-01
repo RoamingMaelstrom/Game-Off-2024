@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: 0 - Setup
   m_EditorClassIdentifier: 
   techName: Begin Alien Research
-  description: 
+  description: 'They came from Above, shrouded in mystery and secrecy; A terrible
+    threat to all of humankind. We must begin working to find out how to Defend the
+    Earth! '
   effects:
-  - effectType: 9000
-    value: 0
+  - effectType: 9900
+    value: 1000
   techType: 3
   techUpgradeHandlers: f4010000

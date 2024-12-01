@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 10 - Weapon 2 Upgrade 1
   m_EditorClassIdentifier: 
   techName: Laser Munitions
-  description: Chaingun Fires Laser rounds that deal more damage
+  description: Chain Gun Fires Laser rounds that deal more damage
   effects:
   - effectType: 2003
-    value: 50
+    value: 33
   techType: 0
   techUpgradeHandlers: 68000000

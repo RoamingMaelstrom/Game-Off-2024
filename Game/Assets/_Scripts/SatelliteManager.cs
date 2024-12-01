@@ -8,32 +8,39 @@ public class SatelliteManager : MonoBehaviour
     [SerializeField] Constellation satellite1Constellation;
     [SerializeField] Constellation satellite2Constellation;
     [SerializeField] Constellation satellite3Constellation;
+    [SerializeField] Constellation spaceStationConstellation;
+    [SerializeField] Weapon[] spaceStationWeapons;
 
     private readonly TechUpgradeHandler satelliteManagerHandler = TechUpgradeHandler.SATELLITE_MANAGER;
     private readonly TechUpgradeHandler satellite1Handler = TechUpgradeHandler.SATELLITE_1;
     private readonly TechUpgradeHandler satellite2Handler = TechUpgradeHandler.SATELLITE_2;
     private readonly TechUpgradeHandler satellite3Handler = TechUpgradeHandler.SATELLITE_3;
-    // Todo: Add Space Station Handler
+    private readonly TechUpgradeHandler spaceStationHandler = TechUpgradeHandler.SPACE_STATION;
 
     private void Awake() {
         unlockTechEvent.AddListener(ProcessUnlock);
         satellite1Constellation.SetInactiveSatellitesPositions(Vector3.one * 10000f);
         satellite2Constellation.SetInactiveSatellitesPositions(Vector3.one * 10000f);
         satellite3Constellation.SetInactiveSatellitesPositions(Vector3.one * 10000f);
+        spaceStationConstellation.SetInactiveSatellitesPositions(Vector3.one * 10000f);
     }
 
     private void ProcessUnlock(TechObjectDisplay tOD)
     {
         if (tOD.techObject.effects[0].effectType == EffectType.UNLOCK_SATELLITE_1) {
-            satellite1Constellation.AddSatellites(6);
+            satellite1Constellation.AddSatellites(satellite1Constellation.startSatelliteCount);
             return;
         }
         if (tOD.techObject.effects[0].effectType == EffectType.UNLOCK_SATELLITE_2) {
-            satellite2Constellation.AddSatellites(4);
+            satellite2Constellation.AddSatellites(satellite2Constellation.startSatelliteCount);
             return;
         }
         if (tOD.techObject.effects[0].effectType == EffectType.UNLOCK_SATELLITE_3) {
-            satellite3Constellation.AddSatellites(8);
+            satellite3Constellation.AddSatellites(satellite3Constellation.startSatelliteCount);
+            return;
+        }
+        if (tOD.techObject.effects[0].effectType == EffectType.UNLOCK_SPACE_STATION) {
+            spaceStationConstellation.AddSatellites(1);
             return;
         }
 
@@ -41,10 +48,53 @@ public class SatelliteManager : MonoBehaviour
         if (tOD.techObject.ContainsHandler(satellite1Handler)) ProcessSatelliteShotUpgrade(tOD, satellite1Constellation);
         else if (tOD.techObject.ContainsHandler(satellite2Handler)) ProcessSatelliteShotUpgrade(tOD, satellite2Constellation);
         else if (tOD.techObject.ContainsHandler(satellite3Handler)) ProcessSatelliteLaserbeamUpgrade(tOD, satellite3Constellation);
+        else if (tOD.techObject.ContainsHandler(spaceStationHandler)) ProcessSpaceStationUpgrade(tOD, spaceStationWeapons);
         else if (tOD.techObject.ContainsHandler(satelliteManagerHandler)) ProcessAllSatellitesUpgrade(tOD);
     }
 
-    private void ProcessSatelliteShotUpgrade(TechObjectDisplay tOD, Constellation constellation)
+    private static void ProcessSpaceStationUpgrade(TechObjectDisplay tOD, Weapon[] weapons)
+    {
+        SatelliteDetector[] satelliteDetectors = new SatelliteDetector[weapons.Length];
+        for (int i = 0; i < weapons.Length; i++)
+        {
+            satelliteDetectors[i] = weapons[i].transform.GetChild(0).GetComponent<SatelliteDetector>();
+        }
+
+        foreach (var effect in tOD.techObject.effects)
+        {
+            switch (effect.effectType)
+            {
+                case EffectType.ACCURACY: {
+                    foreach (var weapon in weapons) weapon.accuracyCoefficient += (1f - weapon.accuracyCoefficient) * effect.value / 100f;
+                    break;
+                }
+                case EffectType.DAMAGE: {
+                    foreach (var weapon in weapons) weapon.munitionID++;
+                    break;
+                }
+                case EffectType.FIRE_RATE: {
+                    foreach (var weapon in weapons) weapon.fireRate *= 1f + (effect.value / 100f);
+                    break;
+                }
+                case EffectType.MUNITION_COUNT: {
+                    foreach (var weapon in weapons) weapon.fireCount = effect.value;
+                    break;
+                }
+                case EffectType.SATELLITE_RANGE: {
+                    foreach (var detector in satelliteDetectors) detector.range *= 1f + (effect.value / 100f);
+                    break;
+                }
+                default: break;
+            }
+        }
+
+        foreach (var weapon in weapons)
+        {
+            weapon.RecreateFOI();
+        }
+    }
+
+    private static void ProcessSatelliteShotUpgrade(TechObjectDisplay tOD, Constellation constellation)
     {
         Weapon[] satelliteWeapons = constellation.GetComponentsInSatellites<Weapon>();
         SatelliteDetector[] satelliteDetectors = constellation.GetComponentsInSatellites<SatelliteDetector>();
@@ -66,6 +116,14 @@ public class SatelliteManager : MonoBehaviour
                     break;
                 }
                 case EffectType.MUNITION_COUNT: {
+                    foreach (var weapon in satelliteWeapons) weapon.fireWidth = effect.value;
+                    break;
+                }
+                case EffectType.MUNITION_SPEED: {
+                    foreach (var weapon in satelliteWeapons) weapon.munitionSpeed *= 1f + (effect.value / 100f);
+                    break;
+                }
+                case EffectType.BURST_FIRE: {
                     foreach (var weapon in satelliteWeapons) weapon.fireCount = effect.value;
                     break;
                 }
@@ -74,15 +132,21 @@ public class SatelliteManager : MonoBehaviour
                     break;
                 }
                 case EffectType.SATELLITE_COUNT: {
-                    constellation.AddSatellites(effect.value);
+                    if (constellation.Active()) constellation.AddSatellites(effect.value);
+                    else constellation.startSatelliteCount += effect.value;
                     break;
                 }
                 default: break;
             }
         }
+
+        foreach (var weapon in satelliteWeapons)
+        {
+            weapon.RecreateFOI();
+        }
     }
 
-    private void ProcessSatelliteLaserbeamUpgrade(TechObjectDisplay tOD, Constellation constellation)
+    private static void ProcessSatelliteLaserbeamUpgrade(TechObjectDisplay tOD, Constellation constellation)
     {
         LaserbeamWeapon[] satelliteLaserbeams = constellation.GetComponentsInSatellites<LaserbeamWeapon>();
 
@@ -98,6 +162,10 @@ public class SatelliteManager : MonoBehaviour
                     foreach (var weapon in satelliteLaserbeams) weapon.storedDotValue *= 1f + (effect.value / 100f);
                     break;
                 }
+                case EffectType.DROP_OFF: {
+                    foreach (var weapon in satelliteLaserbeams) weapon.minDamageMultiplier *= 1f + (effect.value / 100f);
+                    break;
+                }
                 case EffectType.FIRE_RATE: {
                     foreach (var weapon in satelliteLaserbeams) weapon.damageDealer.dotInterval *= 1f - (effect.value / 100f);
                     break;
@@ -107,7 +175,8 @@ public class SatelliteManager : MonoBehaviour
                     break;
                 }
                 case EffectType.SATELLITE_COUNT: {
-                    constellation.AddSatellites(effect.value);
+                    if (constellation.Active()) constellation.AddSatellites(effect.value);
+                    else constellation.startSatelliteCount += effect.value;
                     break;
                 }
                 default: break;
@@ -122,12 +191,14 @@ public class SatelliteManager : MonoBehaviour
         ProcessSatelliteShotUpgrade(tOD, satellite1Constellation);
         ProcessSatelliteShotUpgrade(tOD, satellite2Constellation);
         ProcessSatelliteLaserbeamUpgrade(tOD, satellite3Constellation);
+        ProcessSpaceStationUpgrade(tOD, spaceStationWeapons); 
     }
 
     private void LateUpdate() {
         satellite1Constellation.Rotate(Time.deltaTime);
         satellite2Constellation.Rotate(Time.deltaTime);
         satellite3Constellation.Rotate(Time.deltaTime);
+        spaceStationConstellation.Rotate(Time.deltaTime);
     }
 }
 
@@ -140,6 +211,9 @@ public class Constellation
     public float constellationRotation;
     public float rotationSpeed = 1f;
     public float orbitRadius = 50f;
+    public int startSatelliteCount;
+
+    public bool Active() => satellitesInUse.Count > 0;
 
     public void SetInactiveSatellitesPositions(Vector3 pos) {
         foreach (var satellite in satellitesInactive)
@@ -168,10 +242,8 @@ public class Constellation
         }
     }
 
-    // Todo: Improve adding system so that already active satellites don't have to move as much
     public void AddSatellites(int num) {
         int inactiveCount = satellitesInactive.Count;
-        bool firstTime = satellitesInUse.Count == 0;
 
         for (int i = 0; i < num; i++)
         {
@@ -180,8 +252,8 @@ public class Constellation
             satellitesInactive.RemoveAt(inactiveCount - 1);
             inactiveCount --;
         }
-        // Todo: Could set this so that satellites automatically jump into correct separation on upgrade.
-        if (firstTime) Rotate(2f);
+        
+        Rotate(2f);
     }
 
     public T[] GetComponentsInSatellites<T>() {

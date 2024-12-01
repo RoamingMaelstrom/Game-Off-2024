@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 0 - Satellite
   m_EditorClassIdentifier: 
-  techName: Basic Satellite Array
-  description: Spawns Satellites that Orbit the Earth, shooting at nearby enemies
+  techName: Cannon Satellite Array
+  description: 'Constellation of Six Satellites that orbit the Earth, shooting at
+    nearby enemies. Less Effective over longer Distances due to poor Cannon Accuracy.
+
+    Satellites
+    do not get Experience from Kills by default'
   effects:
   - effectType: 8007
     value: 0

@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,9 +76,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 500
   m_Sprite: {fileID: 21300000, guid: 1af0b5efac08e224d8cd1567d959b219, type: 3}
-  m_Color: {r: 0.6415094, g: 0.6277916, b: 0.5900676, a: 1}
+  m_Color: {r: 0.885502, g: 0.9339623, b: 0.9339623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -163,13 +163,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   despawnEvent: {fileID: 11400000, guid: 451e153b5f7bf394fb408373636273a0, type: 2}
-  damageValue: 50
+  damageValue: 20
   dotDamageValue: 0
   DotInterval: 0
   life: 0
   alive: 1
   despawnFloatValue: 0
+  passToHealthFloatValue: 1
   createdBy: {fileID: 0}
+  spawnSfx:
+  - player_medium_laser_1
+  - player_medium_laser_2
+  - player_medium_laser_3
+  - player_medium_laser_4
 --- !u!114 &-7446104435816820178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +192,4 @@ MonoBehaviour:
   autoStart: 1
   startLifespan: 5
   spanRemaining: 0
+  despawnFloatValue: 0

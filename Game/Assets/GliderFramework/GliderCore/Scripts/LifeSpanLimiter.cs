@@ -9,6 +9,8 @@ public class LifeSpanLimiter : MonoBehaviour
     public float startLifespan;
     public float spanRemaining;
 
+    [SerializeField] float despawnFloatValue = 0;
+
     public bool Running {get; private set;}
 
     private void Start() 
@@ -33,7 +35,7 @@ public class LifeSpanLimiter : MonoBehaviour
         if (spanRemaining <= 0) 
         {
             Running = false;
-            onLifeEndEvent.Invoke(gameObject, 0);
+            onLifeEndEvent.Invoke(gameObject, despawnFloatValue);
         }
     }
 

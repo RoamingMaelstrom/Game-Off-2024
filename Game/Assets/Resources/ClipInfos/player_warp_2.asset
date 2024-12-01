@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7193720da76db664fa62883f5d48f95a, type: 3}
+  m_Name: player_warp_2
+  m_EditorClassIdentifier: 
+  clipName: player_warp_2
+  clip: {fileID: 8300000, guid: 01ed278bd118d8c4b916dc00c27db33e, type: 3}
+  volume: 0.75
+  cooldownOnPlay: 0.25
+  priority: 128

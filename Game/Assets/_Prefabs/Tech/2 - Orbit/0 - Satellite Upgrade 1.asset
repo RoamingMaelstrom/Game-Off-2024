@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 0 - Satellite Upgrade 1
   m_EditorClassIdentifier: 
   techName: Improved Firing Module
-  description: Install Improved Firing Module, Increasing Satellite accuracy and
-    Fire Rate
+  description: Install I.F.M. to Increase Satellite accuracy and Fire Rate
   effects:
   - effectType: 2001
     value: 25

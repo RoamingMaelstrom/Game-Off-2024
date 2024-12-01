@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: 40 - Space Station Upgrade 2
   m_EditorClassIdentifier: 
   techName: Satellites Guidance System 1
-  description: Shares data with all Satellites, increasing Accuracy and Fire rate.
+  description: Shares data with other Satellites, increasing All Satellites Accuracy
+    and Fire rate
   effects:
   - effectType: 2001
     value: 50
   - effectType: 2006
-    value: 15
-  - effectType: 3006
+    value: 25
+  - effectType: 3500
     value: 0
   techType: 1
   techUpgradeHandlers: ce000000

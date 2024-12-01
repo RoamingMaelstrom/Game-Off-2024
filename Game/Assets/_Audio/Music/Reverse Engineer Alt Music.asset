@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20461da5228b2b44da0f6a6c30d6a84c, type: 3}
+  m_Name: Reverse Engineer Alt Music
+  m_EditorClassIdentifier: 
+  containerName: Reverse Engineer Music
+  tracks:
+  - {fileID: 8300000, guid: 80cc05365c028754395e6d7fa7f8d466, type: 3}
+  - {fileID: 8300000, guid: a3001c738f4842a43bdfd8d9e56f6cfe, type: 3}
+  trackPath: 0000000001000000
+  containerVolumeMultiplier: 0.75
+  defaultFadeOutDuration: 1
+  defaultFadeInDuration: 1
+  mode: 2
+  setVolumeOnEnter: 1

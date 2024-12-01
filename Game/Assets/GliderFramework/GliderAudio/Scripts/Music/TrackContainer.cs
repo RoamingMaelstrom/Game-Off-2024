@@ -24,7 +24,6 @@ namespace GliderAudio
         public void RunOnEnter()
         {
             currentTrackPathIndex = -1;
-            if (setVolumeOnEnter) containerVolumeMultiplier = 1f;
             GenerateNextTrackPath();
         }
 

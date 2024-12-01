@@ -50,10 +50,11 @@ public class Weapon : MonoBehaviour
 
     private IEnumerator FireMultiple()
     {
+        float interval = Mathf.Clamp(0.5f * fireCount / fireRate, 0.04f, 0.12f);
         for (int i = 0; i < fireCount; i++)
         {
             FireSingle();
-            if (i + 1 < fireCount) yield return new WaitForSeconds(0.05f);
+            if (i + 1 < fireCount) yield return new WaitForSeconds(interval);
         } 
     }
 

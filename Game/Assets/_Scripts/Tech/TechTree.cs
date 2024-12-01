@@ -1,15 +1,12 @@
-using SOEvents;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class TechTree : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI unlockCountText;
     [SerializeField] int unlockCount = 0;
     private int numTechs;
     public TechTreeBand[] bands;
     [SerializeField] TechType techTreeType;
+    [SerializeField] TechLevelLines techLevelLines;
 
     public void CalculateNumTechs() {
         numTechs = 0;
@@ -19,8 +16,10 @@ public class TechTree : MonoBehaviour
         }
     }
 
+    public int UnlockCount {get => unlockCount; private set {}}
+    public int NumTechs {get => numTechs; private set {}}
+
     public void UnlockTech(TechObjectDisplay tech) {
-        Debug.Log(tech.techObject);
         if (tech.techObject.techType != techTreeType) return;
         tech.techUnlockStatusEncoded = 64;
         unlockCount ++;
@@ -35,13 +34,13 @@ public class TechTree : MonoBehaviour
             SetTODTooltips(techDisplayFormatter, band);
         }
 
-        unlockCountText.SetText(string.Format("Unlocked\n{0}/{1}", unlockCount, numTechs));
+        techLevelLines.SetLineColours(level);
     }
 
     public void SetTODTooltips(TechDisplayFormatter techDisplayFormatter, TechTreeBand band) {
         foreach (var tech in band.techDisplays)
         {
-            techDisplayFormatter.SetTooltip(tech);
+            techDisplayFormatter.SetTooltip(tech, band);
         }
     }
 
@@ -58,7 +57,7 @@ public class TechTree : MonoBehaviour
         {
             if (techDisplay.techUnlockStatusEncoded > 0) continue;
             if (unlockPoints <= 0) techDisplay.techUnlockStatusEncoded += 1;
-            if (level < band.minUnlocks) techDisplay.techUnlockStatusEncoded += 2;
+            if (level < band.minLevel) techDisplay.techUnlockStatusEncoded += 2;
             foreach (var tech in techDisplay.dependentTechs)
             {
                 if ((tech.techUnlockStatusEncoded & 64) == 0) {

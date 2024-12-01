@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - XP and Population 1
   m_EditorClassIdentifier: 
-  techName: Trans-Human Revolution
-  description: Genetically Engineer all new-borns into a superior form of Human
+  techName: Human Genetic Engineering
+  description: Genetically Engineer all new-borns into a superior form of Human.
+    Increases Population Growth and Passive Experience Gain
   effects:
   - effectType: 4002
-    value: 15
+    value: 5
   - effectType: 4001
-    value: 15
+    value: 10
   - effectType: 4005
     value: 25
   techType: 2

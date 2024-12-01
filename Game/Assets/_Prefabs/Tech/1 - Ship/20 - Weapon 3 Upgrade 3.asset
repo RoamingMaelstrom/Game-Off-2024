@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 20 - Weapon 3 Upgrade 3
   m_EditorClassIdentifier: 
   techName: Faster Frequency Power Source
-  description: Increase Battery Hz, increasing Laserbeam attack rate
+  description: Increase Battery Hz, increasing the rate that Laser Beam deals damage
   effects:
   - effectType: 2006
     value: 50

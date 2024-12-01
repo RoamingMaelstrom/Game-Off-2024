@@ -9,8 +9,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 6f3a026d146b5674b99558467dde9c1e, type: 2}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectTech
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Invoke
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SOEvents.SOEvent`1[[System.String, mscorlib
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: positive_ui
+      objectReference: {fileID: 0}
+    - target: {fileID: 303821588029040150, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1632382170641649791, guid: c2a5974074bbd97449895e25d800cad5, type: 3}
       propertyPath: m_Sprite

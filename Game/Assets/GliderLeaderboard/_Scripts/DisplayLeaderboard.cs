@@ -85,7 +85,7 @@ namespace GliderServices
 
                 textArray[0].SetText(string.Format("#{0}", rank));
                 textArray[1].SetText(name);
-                textArray[2].SetText(score.ToString());
+                textArray[2].SetText(string.Format("{0:n0}", (score / 10) * 10));
             }
         }
     }

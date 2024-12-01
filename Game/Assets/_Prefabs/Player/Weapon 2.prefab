@@ -49,7 +49,7 @@ MonoBehaviour:
   fireRate: 9
   fireWidth: 1
   fireCount: 1
-  munitionID: 1012
+  munitionID: 1011
   accuracyCoefficient: 0.5
   munitionSpeed: 45
   offset: {x: 0, y: 0}

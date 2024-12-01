@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dfed800dde4e64393a8a7eea77c878, type: 3}
+  m_Name: Space Station Munition
+  m_EditorClassIdentifier: 
+  startPoolID: 1401
+  basePoolName: Satellite 1 Munition
+  objectPrefabList:
+  - {fileID: 4940917942949554735, guid: 2c90a7d9ad4604b4b83a670ac95b6ea3, type: 3}
+  - {fileID: 4940917942949554735, guid: 28e00454ea800e24ba5071195b153360, type: 3}
+  - {fileID: 4940917942949554735, guid: 15333994902bfd74ab24ee7998b0ec21, type: 3}
+  maxPoolSize: 150
+  dynamicOptions:
+    dynamicExpansionEnabled: 0
+    expandThresholdPercent: 0.8
+    expandByPercent: 0.25
+    maxDynamicFillRatePerSecond: 50
+    dynamicShrinkingEnabled: 0
+    checkDelaySeconds: 30
+    shrinkThresholdPercent: 0.25
+    shrinkByPercent: 0.25
+    minimumPoolSize: 25

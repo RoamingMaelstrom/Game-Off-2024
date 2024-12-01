@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: 0 - Reverse Engineer
   m_EditorClassIdentifier: 
   techName: Know Thy Enemy
-  description: Collect 10 Parts from Alien Spaceships, and return them to the Earth
+  description: "To stand a chance of defeating these Aliens, we must learn more about
+    them. Our team has identified a specific type of Alien Craft that would be useful
+    for our research. \r\nCollect Alien Parts from that Craft, and return them to
+    Earth\r\n"
   effects:
-  - effectType: 9000
-    value: 0
-  - effectType: 9001
-    value: 0
+  - effectType: 9002
+    value: 20
   techType: 3
   techUpgradeHandlers: f4010000

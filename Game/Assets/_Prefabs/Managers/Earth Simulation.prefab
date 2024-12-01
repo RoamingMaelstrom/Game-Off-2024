@@ -45,15 +45,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   growthEvent: {fileID: 11400000, guid: 72721a847b057ca4cb8b39b9b61e147d, type: 2}
+  playerDamagedEvent: {fileID: 11400000, guid: 7be173e757349dd4ea7a237ec492b265, type: 2}
   unlockTechEvent: {fileID: 11400000, guid: 7a646e8e2f5f95b409350c56ca36ea0e, type: 2}
   startPopulation: 8000
-  maxPopulation: 50000
+  populationLimit: 50000
   currentPopulation: 0
-  growthPerTick: 5
-  growthPercentPerTick: 0.0003
-  maxPercentGrowth: 50
+  growthPerTick: 6
+  growthPercentPerTick: 0.0004
+  maxPercentGrowth: 100
   growthInterval: 1
   randomGrowthMinValue: 5
-  randomGrowthMaxValue: 20
-  randomGrowthProb: 0.1
+  randomGrowthMaxValue: 25
+  randomGrowthProb: 0.125
   damageMultiplier: 1
+  emergencyRepopulationMultiplier: 0
+  emergencyRepopulationCap: 60
+  populationGainedPassiveFlat: 0
+  populationGainedPassiveExp: 0
+  populationGainedRandom: 0
+  populationGainedEmergency: 0
+  populationGainedPopulationMultiplier: 0

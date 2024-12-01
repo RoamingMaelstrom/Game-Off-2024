@@ -3,6 +3,7 @@ using UnityEngine;
 using GliderSave;
 using System.Linq;
 using System;
+using SOEvents;
 
 namespace GliderAudio
 {
@@ -10,6 +11,7 @@ namespace GliderAudio
     public class SfxSystem : MonoBehaviour
     {
         [SerializeField] FloatSaveObject baseSfxVolumeSaveObject;
+        [SerializeField] FloatSOEvent changeSfxVolumeEvent;
 
         [SerializeField] AudioListener listener;
         [SerializeField] GameObject baseAudioSourcePrefab;
@@ -18,8 +20,11 @@ namespace GliderAudio
         [SerializeField] List<SfxAudioSourceInfo> audioSourceInfos = new();
         [SerializeField] int[] audioSourceInfoIDs;
         [SerializeField] [Range(0f, 1f)] float baseVolume;
+        [SerializeField] float cullingDistance = 50f;
 
         [SerializeField] string[] clipsPlaying;
+        [SerializeField] int cullCount;
+        [SerializeField] string onVolumeChangeSfx;
 
 
         public static SfxAudioSourceInfo NullSourceInfo{get => new(-1, null); private set {}}
@@ -27,13 +32,18 @@ namespace GliderAudio
         private void Awake() 
         {
             if (!listener) listener = FindObjectOfType<AudioListener>();
+
             clipsPlaying = new string[numberOfSources];
             CreateAudioSources();
             if (!SFX.IsSetup) SFX.Setup(this); 
             ChangeSfxBaseVolume(baseSfxVolumeSaveObject.GetValue());
+
+            changeSfxVolumeEvent.AddListener(ChangeSfxBaseVolume);
         }
 
-
+        public void FindAudioListener() {
+            if (!listener) listener = FindObjectOfType<AudioListener>();
+        }
 
         private void CreateAudioSources()
         {
@@ -54,8 +64,11 @@ namespace GliderAudio
 
         private void FixedUpdate() 
         {
-            clipContainer.UpdateClipInfosCooldown(Time.fixedDeltaTime);
             UpdateAudioSourcePositions();
+        }
+
+        private void Update() {
+            clipContainer.UpdateClipInfosCooldown(Time.unscaledDeltaTime);
             UpdatePlayingClipsData();
         }
 
@@ -71,6 +84,7 @@ namespace GliderAudio
             float oldBaseVolume = baseVolume;
             baseVolume = Mathf.Clamp(newVolume, 0f, 1f);
             baseSfxVolumeSaveObject.SetValue(baseVolume);
+            SFX.PlayRelativeToListener(onVolumeChangeSfx, Vector3.zero);
             UpdatePlayingSourcesVolume(baseVolume, oldBaseVolume);
         }
 
@@ -78,6 +92,15 @@ namespace GliderAudio
 
         public int PlayClip(SFX.PlayClipCall call)
         {
+            Vector3 playingPos;
+            if (!call.trackingTransform) playingPos = GetAudioSourcePosition(call.position, call.relativePos);
+            else playingPos = call.trackingTransform.position + (call.relativePos ? call.position: Vector3.zero);
+
+            if ((playingPos - listener.transform.position).sqrMagnitude > cullingDistance * cullingDistance) {
+                cullCount++;
+                return -4;
+            }
+
             ClipInfoEntry clipInfoEntry = clipContainer.GetSfxClipInfoEntry(call.clipName);
             if (clipInfoEntry.clipInfo == null) return -1;
             if (clipInfoEntry.currentCooldown > 0) return -1;
@@ -86,9 +109,10 @@ namespace GliderAudio
             ConfigureAudioSource(sourceInfo, clipInfoEntry.clipInfo, call);
             clipInfoEntry.currentCooldown = clipInfoEntry.clipInfo.cooldownOnPlay;
 
-            if (!call.trackingTransform) sourceInfo.source.transform.position = GetAudioSourcePosition(call.position, call.relativePos);
-            else sourceInfo.source.transform.position = sourceInfo.trackingTransform.position + sourceInfo.relativePos;
+           // if (!call.trackingTransform) sourceInfo.source.transform.position = GetAudioSourcePosition(call.position, call.relativePos);
+            //else sourceInfo.source.transform.position = sourceInfo.trackingTransform.position + sourceInfo.relativePos;
             
+            sourceInfo.source.transform.position = playingPos;
             sourceInfo.source.Play();
 
             return sourceInfo.ID;

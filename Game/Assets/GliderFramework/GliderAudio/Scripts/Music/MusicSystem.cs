@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using GliderSave;
+using SOEvents;
 
 namespace GliderAudio
 {
@@ -9,6 +10,7 @@ namespace GliderAudio
     {
         [Tooltip("FloatSaveObject that Stores Base Volume. Manipulated by volume sliders. For effects such as fading, set runtimeVolumeMultiplier")]
         [SerializeField] FloatSaveObject musicVolumeSaveObject;
+        [SerializeField] FloatSOEvent changeMusicVolumeEvent;
 
 
         [Header("Volume")]
@@ -22,7 +24,8 @@ namespace GliderAudio
         private bool usePauseMuffle = false;
         public float VolumeActual {get => MAX_AUDIO_SOURCE_VOLUME * VolumeVirtual; private set {}}
         public float VolumeBaseVirtual {get => musicVolumeSaveObject.GetValue(); private set {}}
-        public float VolumeVirtual {get => VolumeBaseVirtual * runtimeVolumeMultiplier * (usePauseMuffle ? pauseMuffleMultiplier : 1.0f); private set {}}
+        public float VolumeVirtual {get => VolumeBaseVirtual * runtimeVolumeMultiplier * (usePauseMuffle ? pauseMuffleMultiplier : 1.0f) * 
+                    (currentTrackContainer != null ? currentTrackContainer.containerVolumeMultiplier : 1f); private set {}}
 
         [Header("Internals")]
         [SerializeField] AudioSource playingSource;
@@ -39,12 +42,12 @@ namespace GliderAudio
 
         private void Awake(){
             if (!Music.IsSetup) Music.Setup(this); 
+            changeMusicVolumeEvent.AddListener(ChangeBaseVolume);
         }
 
         void Start(){
             UpdateSourceVolume();
-            currentTrackContainer = trackContainers[startTrackContainerIndex];
-            PlayNextTrack();
+            SwitchTrackContainer(startTrackContainerIndex);
         }
 
         void Update(){
@@ -89,6 +92,8 @@ namespace GliderAudio
             if (!ValidTrackContainerIndex(index)) return -2;
             if (currentTrackContainer == trackContainers[index]) return -3;
             currentTrackContainer = trackContainers[index];
+            currentTrackContainer.RunOnEnter();
+            if (currentTrackContainer.setVolumeOnEnter) ChangeVolume(1f);
             PlayNextTrack();
             return 1;
         }

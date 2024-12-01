@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Weapon 2
   m_EditorClassIdentifier: 
-  techName: Chaingun
-  description: Add rapid-fire chaingun to Ship
+  techName: Chain Gun
+  description: Add rapid-fire Chain Gun to Ship
   effects:
   - effectType: 8003
     value: 0

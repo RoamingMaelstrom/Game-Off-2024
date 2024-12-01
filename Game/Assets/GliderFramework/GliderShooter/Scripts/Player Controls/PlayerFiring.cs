@@ -37,6 +37,7 @@ public class PlayerFiring : MonoBehaviour
     }
 
     public void AddWeapon(Weapon weapon) => playerWeapons.Add(weapon);
+    public void RemoveWeaponAt(int index) => playerWeapons.RemoveAt(index);
 
 }
 

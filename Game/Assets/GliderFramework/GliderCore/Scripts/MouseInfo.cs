@@ -73,11 +73,9 @@ public class MouseInfo : MonoBehaviour
 
         if (RightMouseHeldDown) TimeRMButtonDown += Time.deltaTime;
         else TimeRMButtonDown = 0;
-    }
 
-
-    private void FixedUpdate() {
         DeltaMousePosScreen = MousePosScreen - mousePosTMinus1;
         mousePosTMinus1 = MousePosScreen;
+
     }
 }

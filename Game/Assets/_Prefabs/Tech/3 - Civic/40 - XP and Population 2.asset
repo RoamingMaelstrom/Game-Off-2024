@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 40 - XP and Population 2
   m_EditorClassIdentifier: 
-  techName: 'Post-Human '
-  description: Engineer all new-borns into an entirely new species
+  techName: Project Post-Human
+  description: Engineer new-borns into an entirely new species. Increases Population
+    Growth and Passive Experience Gain
   effects:
   - effectType: 4001
-    value: 20
+    value: 10
   - effectType: 4002
-    value: 20
-  - effectType: 4002
+    value: 15
+  - effectType: 4005
     value: 33
   techType: 2
   techUpgradeHandlers: 2e0100002f010000

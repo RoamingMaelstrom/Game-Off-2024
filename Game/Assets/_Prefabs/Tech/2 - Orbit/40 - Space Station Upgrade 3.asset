@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 40 - Space Station Upgrade 3
   m_EditorClassIdentifier: 
   techName: Overclocked Turrets 2
-  description: Increases Fire Rate and Damage of Space Station Turrets
+  description: Increases Fire Rate and Damage of Space Station Turrets further
   effects:
   - effectType: 2006
     value: 33

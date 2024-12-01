@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - XP 1
   m_EditorClassIdentifier: 
-  techName: Global Education Program 2
-  description: Provide High Quality Secondary Education to the Global Population,
-    Increasing Passive XP Gain
+  techName: Robotic Rollout
+  description: 'Rollout Robots to automate tasks globally, Increasing Experience
+    Gained Passively and from Population Size '
   effects:
   - effectType: 4005
     value: 20
   - effectType: 4007
-    value: 15
+    value: 5
   techType: 2
   techUpgradeHandlers: 2f0100002e010000

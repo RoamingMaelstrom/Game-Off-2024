@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Satellite 3
   m_EditorClassIdentifier: 
-  techName: Beam Satellite Array
-  description: Array of Satellites armed with Laser Beam weaponary. Laser Beam damage
-    depends on Alien Ship distance from Satellite
+  techName: Laser Beam Satellite Array
+  description: Array of Satellites that shoot Laser Beams at nearby Aliens. Laser
+    Beam damage decreases for Targets that are Further Away
   effects:
   - effectType: 8009
     value: 0

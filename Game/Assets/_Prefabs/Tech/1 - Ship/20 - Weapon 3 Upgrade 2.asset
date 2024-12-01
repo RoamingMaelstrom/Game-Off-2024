@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 20 - Weapon 3 Upgrade 2
   m_EditorClassIdentifier: 
-  techName: Better Battery
-  description: Replace Battery with more energy dense model, increasing Beam Damage
-    and Reducing Damage Drop Off
+  techName: High-Quality Capacitors
+  description: Replace Capacitors with more energy dense model, increasing Beam Damage
+    and Reducing Damage Drop Off over larger distances
   effects:
   - effectType: 2003
-    value: 33
+    value: 50
   - effectType: 2004
-    value: 20
+    value: 10
   techType: 0
   techUpgradeHandlers: 69000000

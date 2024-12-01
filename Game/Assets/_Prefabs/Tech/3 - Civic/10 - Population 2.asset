@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Population 2
   m_EditorClassIdentifier: 
-  techName: Climate Geoengineering
-  description: Engineer the Earth's climate, improving crop yields and Preventing
-    Natural Disasters
+  techName: Nano-Bots Rollout
+  description: Supply hospitals with medical Nano-bots, reducing deaths from various
+    accidents and ailments
   effects:
   - effectType: 4001
-    value: 15
+    value: 20
   - effectType: 4003
-    value: 15
+    value: 25
   - effectType: 4004
-    value: 15
+    value: 20
   techType: 2
   techUpgradeHandlers: 2e010000

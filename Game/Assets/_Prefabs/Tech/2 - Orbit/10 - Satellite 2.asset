@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Satellite 2
   m_EditorClassIdentifier: 
-  techName: Sniper Satellite Array
-  description: Spawns satellites that Orbit the Earth, shooting powerful lasers that
-    pierce through Alien Ships
+  techName: Sharpshooter Satellite Array
+  description: Constellation of Four Satellites that orbit the Earth. Shoots powerful
+    lasers that can pierce through Alien Ships. Targets Larger Alien Ships
   effects:
   - effectType: 8008
     value: 0

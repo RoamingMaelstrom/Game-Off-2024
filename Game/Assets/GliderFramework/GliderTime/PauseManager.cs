@@ -37,6 +37,7 @@ public class PauseManager : MonoBehaviour
             enterPauseEvent.Invoke();
             isPaused = true;
             if (gradualUnpauseRoutine != null) StopCoroutine(gradualUnpauseRoutine);
+            GliderAudio.Music.ChangeVolumeFaded(0.25f, 1f);
             Time.timeScale = 0;
             return;
         }
@@ -51,6 +52,7 @@ public class PauseManager : MonoBehaviour
 
     IEnumerator GradualUnpause()
     {
+        GliderAudio.Music.ChangeVolumeFaded(1f, 1f);
         while (Time.timeScale < 1)
         {
             Time.timeScale += unpauseSpeedUpRate;

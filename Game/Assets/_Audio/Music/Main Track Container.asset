@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20461da5228b2b44da0f6a6c30d6a84c, type: 3}
+  m_Name: Main Track Container
+  m_EditorClassIdentifier: 
+  containerName: Main Game Music
+  tracks:
+  - {fileID: 8300000, guid: 7212897e71acf354cb1e049639591697, type: 3}
+  - {fileID: 8300000, guid: 2e54571af05661847bbc62c93ad1d5a6, type: 3}
+  - {fileID: 8300000, guid: cd265b2d74b306a4ebd686287a7dadaa, type: 3}
+  - {fileID: 8300000, guid: 3ce4e14833ec222488392dd40fd18581, type: 3}
+  - {fileID: 8300000, guid: ac6c005ee74354741a8ad02a772689e9, type: 3}
+  trackPath: 
+  containerVolumeMultiplier: 0.75
+  defaultFadeOutDuration: 1
+  defaultFadeInDuration: 1
+  mode: 2
+  setVolumeOnEnter: 1

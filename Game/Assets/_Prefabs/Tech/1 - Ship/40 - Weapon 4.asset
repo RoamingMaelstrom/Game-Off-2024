@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 40 - Weapon 4
   m_EditorClassIdentifier: 
   techName: Missile Launcher
-  description: Fires homing missiles forwards
+  description: 'Adds Missile Launcher to the Ship. Missiles automatically lock-onto
+    and move towards Alien Ships '
   effects:
   - effectType: 8005
     value: 0

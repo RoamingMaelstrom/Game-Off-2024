@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 20 - Satellite Count 1
   m_EditorClassIdentifier: 
   techName: Grow Constellations
-  description: Increases Satellite Count of all Satellite Arrays
+  description: Increases the number of Satellites in all Constellations
   effects:
   - effectType: 3004
     value: 2
-  - effectType: 3006
+  - effectType: 3500
     value: 0
   techType: 1
   techUpgradeHandlers: ce000000

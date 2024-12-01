@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 10 - Missiles
   m_EditorClassIdentifier: 
   techName: Extra-Terrestrial Missiles
-  description: Fires Missiles from the Earth Periodically, Dealing large amount of
+  description: Fire Missiles from the Earth Periodically, Dealing large amount of
     damage to Alien Ships
   effects:
   - effectType: 8012

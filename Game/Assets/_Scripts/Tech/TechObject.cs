@@ -49,7 +49,7 @@ public enum TechUpgradeHandler
     SPACE_STATION = 207,
 
     ___CIVIC___ = 300,
-    EARTH_DEFENCE = 301,
+    EARTH_DEFENCE = 301,//
     EARTH_SIMULATION = 302,//
     PLAYER_LEVEL = 303,//
 

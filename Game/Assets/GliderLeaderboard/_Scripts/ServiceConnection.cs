@@ -52,8 +52,10 @@ namespace GliderServices
 
         public static async void SyncPlayerNameServerToLocal(string localName)
         {
-            if (localName == AuthenticationService.Instance.PlayerName[..AuthenticationService.Instance.PlayerName.IndexOf("#")]) return;
-            await AuthenticationService.Instance.UpdatePlayerNameAsync(localName);
+            if (AuthenticationService.Instance.PlayerName == null) await AuthenticationService.Instance.UpdatePlayerNameAsync(localName);
+            else if (localName == AuthenticationService.Instance.PlayerName[..AuthenticationService.Instance.PlayerName.IndexOf("#")]) return;
+            else await AuthenticationService.Instance.UpdatePlayerNameAsync(localName);
+
         }
 
     }

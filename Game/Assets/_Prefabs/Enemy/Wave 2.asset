@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22076d86ae67b3d49aca68c06f43b759, type: 3}
+  m_Name: Wave 2
+  m_EditorClassIdentifier: 
+  spawnInfoArray:
+  - profile: {fileID: 11400000, guid: 1f496d72056eba6449c0f8781df0512a, type: 2}
+    startSpawnRate: 0.4
+    endSpawnRate: 0.6
+  - profile: {fileID: 11400000, guid: 25dab0b1688dac646a1d823494662671, type: 2}
+    startSpawnRate: 0.2
+    endSpawnRate: 0.4
+  duration: 60

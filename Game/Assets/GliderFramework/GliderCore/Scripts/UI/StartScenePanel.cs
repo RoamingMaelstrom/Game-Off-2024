@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class StartScenePanel : MonoBehaviour
 {
     [SerializeField] List<GameObject> menuPanels = new();
+    [SerializeField] StartSceneCameraLogic startSceneCameraLogic;
 
 
     private void Awake() {
@@ -22,6 +23,10 @@ public class StartScenePanel : MonoBehaviour
         }
         bool newState = !menuPanels[index].activeInHierarchy;
         menuPanels[index].SetActive(newState);
+        if (newState && index == 1) startSceneCameraLogic.FocusPlayer();
+        else startSceneCameraLogic.FocusEarth();
+
+        
 
         if (!newState) EventSystem.current.SetSelectedGameObject(null);
     }

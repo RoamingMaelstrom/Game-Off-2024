@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Satellite 2 Upgrade 1
   m_EditorClassIdentifier: 
-  techName: Larger Lasers
+  techName: Larger Lasers 1
   description: Increases Laser Size as well as Damage
   effects:
   - effectType: 2008

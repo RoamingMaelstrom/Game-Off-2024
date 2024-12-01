@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dfed800dde4e64393a8a7eea77c878, type: 3}
+  m_Name: Retaliation Munitions
+  m_EditorClassIdentifier: 
+  startPoolID: 1311
+  basePoolName: Retaliatation Munitions
+  objectPrefabList:
+  - {fileID: 1535616561565251275, guid: 2b58fd79093b34843b9f271afac0f31e, type: 3}
+  - {fileID: 1535616561565251275, guid: f49d08e3d62c5fb41a45274430639687, type: 3}
+  maxPoolSize: 40
+  dynamicOptions:
+    dynamicExpansionEnabled: 0
+    expandThresholdPercent: 0.8
+    expandByPercent: 0.25
+    maxDynamicFillRatePerSecond: 50
+    dynamicShrinkingEnabled: 0
+    checkDelaySeconds: 30
+    shrinkThresholdPercent: 0.25
+    shrinkByPercent: 0.25
+    minimumPoolSize: 25

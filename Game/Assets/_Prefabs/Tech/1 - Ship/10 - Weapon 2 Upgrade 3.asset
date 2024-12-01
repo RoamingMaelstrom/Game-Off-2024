@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77048b97108b0c40b3754947aaf71c7, type: 3}
   m_Name: 10 - Weapon 2 Upgrade 3
   m_EditorClassIdentifier: 
-  techName: 'F.F. Mechanism '
-  description: Faster Firing Mechanism increases Chaingun fire rate further
+  techName: Faster Firing Mechanism
+  description: Faster Firing Mechanism increases Chain Gun fire rate further
   effects:
   - effectType: 2006
     value: 33
