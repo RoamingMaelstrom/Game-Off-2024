@@ -89,6 +89,7 @@ crashlytics-build.properties
 *.mp3
 *.wav
 *.ogg
+*.psd
 
 # Testing Assets
 /[Aa]ssets/[Tt]esting/*
